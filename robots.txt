@@ -1,4 +1,3 @@
 User-agent: *
-Disallow /admin/
 Allow: /
 Sitemap: https://acmatvirus.tk/sitemap.xml
