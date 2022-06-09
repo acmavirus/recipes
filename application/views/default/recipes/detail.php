@@ -1,7 +1,7 @@
 <h1 class="d-none">Công thúc nấu ăn món <?php echo $oneItem->meta_title; ?></h1>
 <div class="container mt-4">
     <div class="row justify-content-center">
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12 order-2 order-md-1">
             <ul class="list-group">
                 <?php if (!empty($listCategory)) foreach ($listCategory as $key => $value) : ?>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -13,7 +13,7 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-        <div class="col-md-8 col-12">
+        <div class="col-md-8 col-12 order-1 order-md-2">
             <div class="content card mt-0">
                 <h3><?php echo $oneItem->title; ?></h3>
                 <?php echo $oneItem->content; ?>

@@ -27,7 +27,7 @@
 
 <!-- Link style -->
 <link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>libs/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>fontawesome/css/all.min.css">
+<link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>/libs/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>/libs/amlich/jquery.amlich.css">
 <link rel="stylesheet" href="<?php echo base_url('/public/default/') ?>scss/main.css">
 <!-- Script first -->

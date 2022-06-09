@@ -1,7 +1,7 @@
 <h1 class="d-none"><?php echo $onePage->meta_title; ?></h1>
 <div class="container mt-4">
     <div class="row justify-content-center">
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12 order-2 order-md-1">
             <ul class="list-group">
                 <?php if (!empty($listCategory)) foreach ($listCategory as $key => $value) : ?>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -13,7 +13,7 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-        <div class="col-md-8 col-12">
+        <div class="col-md-8 col-12 order-1 order-md-2">
             <div class="row">
                 <?php if (!empty($data)) foreach ($data as $key => $value) : ?>
                     <div class="col-md-6 col-12">
