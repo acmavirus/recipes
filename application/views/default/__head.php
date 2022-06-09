@@ -8,6 +8,7 @@
 <meta name="description" content="<?php if (!empty($SEO->meta_description)) echo $SEO->meta_description; ?>" />
 <meta name="keywords" content="<?php if (!empty($SEO->meta_keyword)) echo $SEO->meta_keyword; ?>" />
 <meta name="author" content="<?php if (!empty($SEO->url)) echo $SEO->url; ?>">
+<meta name="google-site-verification" content="QGm1xnMq4ZXUhzUmstwS8j-XznjrHp56hXi1C4adDSA" />
 <!-- Link icon -->
 
 <link rel="icon" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico">
