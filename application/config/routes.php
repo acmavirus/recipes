@@ -74,3 +74,8 @@ $route['recipes/(:any)/page/(:any)'] = 'Recipes/category/$1/$2';
 $route['recipes/(:any)-det'] = 'Recipes/detail/$1';
 $route['recipes/search'] = 'Recipes/search';
 // =====> =============== <=====
+// ======>      SEO     <======
+$route['sitemap.xml'] = 'Seo/sitemap';
+$route['sitemap_(:any)_(:any).xml'] = 'Seo/$1/$2';
+$route['sitemap_(:any).xml'] = 'Seo/$1';
+// =====> =============== <=====
