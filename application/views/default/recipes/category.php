@@ -17,7 +17,7 @@
             <div class="row">
                 <?php if (!empty($data)) foreach ($data as $key => $value) : ?>
                     <div class="col-md-6 col-12">
-                        <div class="card">
+                        <div class="card mt-0">
                             <div class="card-body p-0">
                                 <?php echo returnLink('', getUrlContent($value->slug), $value->title); ?>
                                 <?php echo returnImg('', '100%', '200px', $value->img, $value->title); ?>

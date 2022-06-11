@@ -71,7 +71,7 @@ class PUBLIC_Model extends MY_Model
     public function __construct()
     {
         parent::__construct();
-        
+
         $this->_dbprefix = $this->db->dbprefix;
         $this->_controller = $this->router->fetch_class();
         $this->_method = $this->router->fetch_method();
@@ -103,7 +103,6 @@ class PUBLIC_Model extends MY_Model
         $query = $this->db->get();
         if ($returnType !== "object") return $query->result_array(); //Check kiểu data trả về
         else return $query->result();
-
     }
 
     private function _where($args = array(), $typeQuery = null)
@@ -128,7 +127,7 @@ class PUBLIC_Model extends MY_Model
         if (!empty($keyword))
             $this->db->like("$this->table.title", $keyword);
 
-        if (!empty($search)){
+        if (!empty($search)) {
             foreach ($this->column_search as $i => $item) {
                 if ($i == 0) {
                     $this->db->group_start();
@@ -145,12 +144,13 @@ class PUBLIC_Model extends MY_Model
 
         if (!empty($id))
             $this->db->where("$this->table.id", $id);
-
+        if (!empty($category_id))
+            $this->db->where("$this->table.category_id", $category_id);
         if (!empty($post_id))
             $this->db->where("$this->table.post_id", $post_id);
 
-        if (!empty($slug)){
-            $this->db->where('slug',$slug);
+        if (!empty($slug)) {
+            $this->db->where('slug', $slug);
         }
 
         if (!empty($in))
@@ -187,7 +187,8 @@ class PUBLIC_Model extends MY_Model
         }
     }
 
-    private function _where_custom($args = array()) {
+    private function _where_custom($args = array())
+    {
         extract($args);
         if (!empty($store_id)) $this->db->where("$this->table.store_id", $store_id);
     }
@@ -211,7 +212,6 @@ class PUBLIC_Model extends MY_Model
                 if (count($this->column_search) - 1 == $i)
                     $this->db->group_end();
             }
-            
         }
 
         if ($this->input->post('sort')) {

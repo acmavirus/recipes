@@ -93,6 +93,7 @@ class Recipes extends PUBLIC_Controller
             'limit' => $limit,
             'SEO' => $SEO
         ];
+        
         $data['main_content'] = $this->load->view('default/recipes/category', $data, true);
         $this->load->view('default/layout', $data);
     }
