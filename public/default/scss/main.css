@@ -1,33 +1,9 @@
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(fonts/montserrat-v23-latin-regular.woff) format("woff"); }
+  font-family: "facebook";
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23596/facebook-letter-faces.ttf); }
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(fonts/montserrat-v23-latin-700.woff2) format("woff2"), url(fonts/montserrat-v23-latin-700.woff) format("woff"); }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: local(""), url(fonts/lato-v22-latin-100.woff2) format("woff2"), url(fonts/lato-v22-latin-100.woff) format("woff"); }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Lato Regular"), local("Lato-Regular"), url(fonts/lato-v22-latin-regular.woff2) format("woff2"), url(fonts/lato-v22-latin-regular.woff) format("woff"); }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Lato Bold"), local("Lato-Bold"), url(fonts/lato-v22-latin-700.woff2) format("woff2"), url(fonts/lato-v22-latin-700.woff) format("woff"); }
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Regular.ttf"); }
 :root {
   --body-font-size: 16px;
   --line-height30: 1.8;
@@ -51,13 +27,20 @@
   background-color: rgba(255, 255, 255, 0.1); }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--main-color);
+  background: var(--heading-color);
   border-radius: 10px; }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style-type: none; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 14px; }
 
 html {
@@ -77,7 +60,7 @@ body {
   height: 100%;
   margin: 0;
   color: #555655;
-  font: 15px/1.6 'Lato', sans-serif;
+  font-family: "Roboto";
   background: #F5F5F5; }
   body:not(.home) #header .holder-logo {
     background: #fff; }
@@ -126,8 +109,7 @@ h1 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 h2 {
   background: transparent;
@@ -138,8 +120,7 @@ h2 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 h3 {
   background: transparent;
@@ -150,8 +131,7 @@ h3 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 h4 {
   background: transparent;
@@ -162,8 +142,7 @@ h4 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 h5 {
   background: transparent;
@@ -174,8 +153,7 @@ h5 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 h6 {
   background: transparent;
@@ -186,8 +164,7 @@ h6 {
   clear: both;
   font-weight: 700;
   margin-bottom: 10px;
-  line-height: 1.2em;
-  font-family: 'Montserrat', sans-serif; }
+  line-height: 1.2em; }
 
 p {
   background: transparent;
@@ -622,7 +599,6 @@ hr {
   margin-bottom: 20px; }
 
 input[type="text"] {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -642,7 +618,6 @@ input[type="text"] {
     border-color: #CCC; }
 
 input[type="number"] {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -660,7 +635,6 @@ input[type="number"] {
   -webkit-box-sizing: border-box; }
 
 input[type="password"] {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -680,7 +654,6 @@ input[type="password"] {
     border-color: #CCC; }
 
 input[type="email"] {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -700,7 +673,6 @@ input[type="email"] {
     border-color: #CCC; }
 
 input[type="url"] {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -718,7 +690,6 @@ input[type="url"] {
   -webkit-box-sizing: border-box; }
 
 select {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -738,7 +709,6 @@ select {
     border-color: #CCC; }
 
 textarea {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -758,7 +728,6 @@ textarea {
     border-color: #CCC; }
 
 .form-categories {
-  font-family: 'Lato', sans-serif;
   border: 2px solid #AEC2C2;
   margin-top: 0;
   margin-bottom: 10px;
@@ -791,8 +760,51 @@ input[type="radio"] {
   padding: 0;
   vertical-align: sub; }
 
-.container {
-  max-width: 940px; }
+.progress-wrap {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear; }
+  .progress-wrap::after {
+    position: absolute;
+    font-family: 'Font Awesome 5 Duotone';
+    content: "\f062";
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: var(--main-color);
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear; }
+  .progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); }
+  .progress-wrap svg path {
+    fill: none; }
+  .progress-wrap svg.progress-circle path {
+    stroke: var(--main-color);
+    stroke-width: 4;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear; }
 
 .ajax-pagination {
   text-align: center;
@@ -904,9 +916,39 @@ input[type="radio"] {
   height: 215px;
   margin-bottom: 15px; }
 
+header .logo {
+  font-family: "facebook";
+  text-decoration: none;
+  background: url("icon/animated-text-fill.png") repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden; }
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%; }
+  100% {
+    background-position: 100% 50%; } }
 .card {
   margin-top: 7.5px;
   margin-bottom: 7.5px;
   padding: 5px; }
+
+ul.list-group li.list-group-item.active a {
+  color: #FFF; }
+  ul.list-group li.list-group-item.active a :hover {
+    color: #FFF; }
+ul.list-group li.list-group-item a {
+  text-decoration: none; }
+  ul.list-group li.list-group-item a :hover {
+    color: var(--main-color); }
+ul.list-group li.list-group-item h2 {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */

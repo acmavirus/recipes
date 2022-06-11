@@ -168,6 +168,9 @@ class PUBLIC_Model extends MY_Model
         if (!empty($created_time))
             $this->db->like("$this->table.created_time", $created_time);
 
+        if (!empty($random))
+            $this->db->order_by('rand()');
+
         if (!empty($author))
             $this->db->where("$this->table.author", $author);
 

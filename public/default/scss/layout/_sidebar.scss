@@ -1,0 +1,25 @@
+ul.list-group {
+	li.list-group-item {
+		&.active {
+			a {
+				color: #FFF;
+
+				:hover {
+					color: #FFF;
+				}
+			}
+		}
+
+		a {
+			text-decoration: none;
+
+			:hover {
+				color: var(--main-color);
+			}
+		}
+
+		h2 {
+			margin-top: 10px;
+		}
+	}
+}

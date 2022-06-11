@@ -114,5 +114,5 @@ HoverCarousel.prototype = {
   }
 }
 
-var carouselElm = document.querySelector('.carousel')
-new HoverCarousel(carouselElm)                          
+var carouselElm = document.querySelector('.carousel');
+if (carouselElm !== null) new HoverCarousel(carouselElm);                          

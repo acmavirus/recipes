@@ -32,7 +32,7 @@ class Recipes extends PUBLIC_Controller
             'limit' => $limit
         ]);
         $listCarousel = $this->_post_recipes->getData([
-            'page' => 1,
+            'random' => 1,
             'limit' => 6
         ]);
         // ==>> END CODE <<== //

@@ -2,16 +2,7 @@
 <div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-4 col-12 order-2 order-md-1">
-            <ul class="list-group">
-                <?php if (!empty($listCategory)) foreach ($listCategory as $key => $value) : ?>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <?php echo returnLink('', getCatUrl($value->slug), $value->title); ?>
-                        <h2><?php echo $value->title; ?></h2>
-                        </a>
-                        <span class="badge bg-primary rounded-pill"><?php echo $value->recipes; ?></span>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+            <?php $this->load->view("default/block/_listCategoryRecipes"); ?>
         </div>
         <div class="col-md-8 col-12 order-1 order-md-2">
             <div class="content card mt-0">

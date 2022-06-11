@@ -1,0 +1,25 @@
+header {
+	.logo {
+		font-family: "facebook";
+		text-decoration: none;
+		background: url("icon/animated-text-fill.png") repeat-y;
+		-webkit-background-clip: text;
+		background-clip: text;
+
+		/* Animate Background Image */
+
+		-webkit-text-fill-color: transparent;
+		-webkit-animation: aitf 80s linear infinite;
+
+		/* Activate hardware acceleration for smoother animations */
+
+		-webkit-transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+	}
+}
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
