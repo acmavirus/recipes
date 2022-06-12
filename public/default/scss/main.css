@@ -987,7 +987,7 @@ ul.list-group li.list-group-item h2 {
 @media only screen and (max-width: 479px) {
   ul.list-group.listCategory {
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: -156px;
     z-index: 2;
