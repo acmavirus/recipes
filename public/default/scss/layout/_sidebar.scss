@@ -22,4 +22,22 @@ ul.list-group {
 			margin-top: 10px;
 		}
 	}
+
+	@media #{$small-mobile} {
+		&.listCategory {
+			height: 100vh;
+			position: absolute;
+			top: 0px;
+			left: -156px;
+			z-index: 2;
+			overflow: auto;
+			transition: left 0.5s;
+		}
+		&:hover {
+			left: -5px;
+		}
+		&.listCategory::-webkit-scrollbar {
+			width: 0px;
+		}
+	}
 }

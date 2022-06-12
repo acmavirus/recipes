@@ -8,17 +8,27 @@
             <div class="row">
                 <div class="col-12">
                     <div class="carousel">
-                        <div class="wrap">
-                            <ul>
-                                <?php if (!empty($carousel)) foreach ($carousel as $key => $value) : ?>
-                                    <li>
-                                        <?php echo returnLink('', getUrlContent($value->slug), $value->title); ?>
-                                        <?php echo returnImg('', '100%', '200px', $value->img, $value->title); ?>
-                                        </a>
-                                    </li>
-                                <?php endforeach; ?>
-                            </ul>
+                        <div class="carousel__nav">
+                            <span id="moveLeft" class="carousel__arrow">
+                                <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                                </svg>
+                            </span>
+                            <span id="moveRight" class="carousel__arrow">
+                                <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                                </svg>
+                            </span>
                         </div>
+                        <?php if (!empty($carousel)) foreach ($carousel as $key => $value) : ?>
+                            <div class="carousel-item carousel-item--<?php echo $key + 1; ?>">
+                                <div class="carousel-item__image" style="background-image: url(<?php echo $value->img; ?>);"></div>
+                                <div class="carousel-item__info">
+                                    <h2 class="carousel-item__title"><?php echo returnLink('carousel-item__btn', getUrlContent($value->slug), $value->title); ?><?php echo $value->title; ?></a></h2>
+                                    <p class="carousel-item__description"><?php echo returnLink('', getUrlContent($value->slug), $value->title); ?><?php echo strip_tags($value->content); ?></a></p>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
