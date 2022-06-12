@@ -41,10 +41,10 @@ class MY_Model extends CI_Model
         } else return $this->cache->clean();
     }
 
-    public function update($db, $where, $data)
+    public function update($where, $data)
     {
         $this->db->where($where);
-        $this->db->update($db, $data);
+        $this->db->update($this->_table, $data);
         return true;
     }
 
