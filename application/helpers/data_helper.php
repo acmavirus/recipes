@@ -20,13 +20,13 @@ if (!function_exists('forecast_weather')) {
                 $value->Night->Icon = substr("00" . $value->Night->Icon, -2, 2);
                 $data['day'][] = [
                     'Date' => day_of_week_vn_byTime($value->EpochDate),
-                    'Icon' => base_url(MEDIA_NAME)."weather_icons/" . $value->Day->Icon . ".png",
+                    'Icon' => base_url(MEDIA_NAME) . "weather_icons/" . $value->Day->Icon . ".png",
                     'IconPhrase' => $value->Day->IconPhrase,
                     'Temp' => ceil(($value->Temperature->Maximum->Value - 32) / 1.8),
                 ];
                 $data['night'][] = [
                     'Date' => day_of_week_vn_byTime($value->EpochDate),
-                    'Icon' => base_url(MEDIA_NAME)."weather_icons/" . $value->Night->Icon . ".png",
+                    'Icon' => base_url(MEDIA_NAME) . "weather_icons/" . $value->Night->Icon . ".png",
                     'IconPhrase' => $value->Night->IconPhrase,
                     'Temp' => ceil(($value->Temperature->Minimum->Value - 32) / 1.8),
                 ];
@@ -60,5 +60,20 @@ if (!function_exists('rss_feed')) {
             $ci->setCache($cache, $feed, 100);
         };
         return $feed;
+    }
+}
+
+if (!function_exists('getFeatured')) {
+    function getFeatured($oneCategory)
+    {
+        $ci = &get_instance();
+        $ci->load->model(['Category_model', 'Page_model', 'Post_model', 'Post_recipes_model']);
+        $post_recipes = new Post_recipes_model();
+        $data = $post_recipes->getData([
+            'category_id' => $oneCategory->id,
+            'random' => 1,
+            'limit' => 6
+        ]);
+        return $data;
     }
 }

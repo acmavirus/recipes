@@ -28,7 +28,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152623543-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
   gtag('config', 'UA-152623543-1');
 </script>
@@ -36,10 +39,9 @@
 <!-- Link style -->
 <link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>libs/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>/libs/fontawesome/css/all.min.css">
-<link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>/libs/amlich/jquery.amlich.css">
 <link rel="stylesheet" href="<?php echo base_url('/public/default/') ?>scss/main.css">
 <!-- Script first -->
 <script src="<?php echo base_url(VENDOR_PATH) ?>js/jquery-3.2.1.min.js"></script>
 <script>
-    let base_url = '<?php echo base_url(); ?>';
+  let base_url = '<?php echo base_url(); ?>';
 </script>
