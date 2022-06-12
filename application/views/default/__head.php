@@ -38,7 +38,6 @@
 
 <!-- Link style -->
 <link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>libs/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo base_url(VENDOR_PATH) ?>/libs/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="<?php echo base_url('/public/default/') ?>scss/main.css">
 <!-- Script first -->
 <script src="<?php echo base_url(VENDOR_PATH) ?>js/jquery-3.2.1.min.js"></script>
