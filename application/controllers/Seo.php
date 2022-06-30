@@ -84,8 +84,8 @@ class Seo extends PUBLIC_Controller
         foreach ($all as $key => $item) {
             $child = $xml->addChild('url');
             $child->addChild('loc', base_url($item->slug));
-            $child->addChild('lastmod', date('c', strtotime($item->updated_time)));
-            $child->addChild('changefreq', 'always');
+            $child->addChild('lastmod', date('c', time()));
+            $child->addChild('changefreq', 'hourly');
             $child->addChild('priority', '0.9');
         }
         $this->output->set_content_type('application/xml')->set_output($xml->asXml());
