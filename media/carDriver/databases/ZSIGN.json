@@ -1,0 +1,3272 @@
+[
+    {
+        "ZDESC": "Để báo đường cấm tất cả các loại máy kéo, kể cả máy kéo bánh hơi và bánh xích đi qua.",
+        "ZIMAGE": "50_.png",
+        "ZINDEX": 2,
+        "ZNAME": "Cấm máy kéo",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 328
+    },
+    {
+        "ZDESC": "Để báo xe ôtô phải đi cách nhau một khoảng tối thiểu. Số ghi trên biển cho biết khoảng cách tối thiểu tính bằng mét. Biển có hiệu lực cấm các xe ôtô không được đi cách nhau kể cả các xe được ưu tiên theo luật lệ nhà nước quy định một cự ly nhỏ hơn trị số ghi trên biển báo.",
+        "ZIMAGE": "85_.png",
+        "ZINDEX": 44,
+        "ZNAME": "Cự ly tối thiểu giữa hai xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 329
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe người kéo, đẩy đi qua. Biển không có giá trị cấm những xe nôi của trẻ em và phương tiện chuyên dùng để đi lại của người tàn tật.",
+        "ZIMAGE": "64_.png",
+        "ZINDEX": 9,
+        "ZNAME": "Cấm xe người kéo, đẩy",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 330
+    },
+    {
+        "ZDESC": "Để báo đường cấm ôtô chở hành khách và các loại ôtô tải có trọng lượng lớn nhất cho phép trên 3,5 Tấn kể cả các loại máy kéo và xe máy thi công chuyên dùng đi qua trừ các xe được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "47_.png",
+        "ZINDEX": 40,
+        "ZNAME": "Cấm ôtô khách và ôtô tải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 331
+    },
+    {
+        "ZDESC": "Để báo đường cấm các loại xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ nhà nước quy định, có độ dài toàn bộ kể cả xe và hàng lớn hơn trị số ghi trên biển đi qua.",
+        "ZIMAGE": "77_.png",
+        "ZINDEX": 14,
+        "ZNAME": "Hạn chế chiều dài ôtô",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 332
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe cơ giới kể cả môtô 3 bánh có thùng xe rẽ trái, trừ môtô hai bánh, xe gắn máy và các xe được ưu tiên theo luật lệ nhà nước.",
+        "ZIMAGE": "39_.png",
+        "ZINDEX": 36,
+        "ZNAME": "Cấm ôtô rẽ trái",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 333
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại phương tiện (cơ giới và thô sơ) đi lại cả hai hướng, trừ các xe được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "28_.png",
+        "ZINDEX": 32,
+        "ZNAME": "Đường cấm",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 334
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe ba bánh loại có động cơ như xe lam, xích lô máy, xe lôi máy v.v...",
+        "ZIMAGE": "59_.png",
+        "ZINDEX": 6,
+        "ZNAME": "Cấm xe ba bánh loại có động cơ (xe lôi máy)",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 335
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe đạp đi qua.",
+        "ZIMAGE": "52_.png",
+        "ZINDEX": 1,
+        "ZNAME": "Cấm đi xe đạp",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 336
+    },
+    {
+        "ZDESC": "Biểu thị ở ngã tư, ngã năm đường phía trước cấm tất cả các loại xe đi thẳng và rẽ trái.",
+        "ZIMAGE": "118_.png",
+        "ZINDEX": 28,
+        "ZNAME": "Cấm đi thẳng và rẽ trái",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 337
+    },
+    {
+        "ZDESC": "Biển báo hết đoạn đường hạn chế tốc độ tối đa. Kể từ biển này, các xe được phép chạy với tốc độ tối đa đã quy định trong Luật Giao thông đường bộ.",
+        "ZIMAGE": "111_.png",
+        "ZINDEX": 24,
+        "ZNAME": "Hết hạn chế tốc độ tối đa",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 338
+    },
+    {
+        "ZDESC": "Cấm tất cả các loại xe cơ giới chạy với tốc độ tối đa vượt quá trị số ghi trên biển, trừ các xe được ưu tiên theo luật lệ Nhà nước quy định.",
+        "ZIMAGE": "100a.png",
+        "ZINDEX": 20,
+        "ZNAME": "Tốc độ tối đa cho phép",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 339
+    },
+    {
+        "ZDESC": "Cấm các xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ nhà nước quy định có chiều cao (tính đến điểm cao nhất kể cả xe và hàng hóa) vượt quá trị số ghi trên biển không được đi qua.",
+        "ZIMAGE": "74_.png",
+        "ZINDEX": 12,
+        "ZNAME": "Hạn chế chiều cao",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 340
+    },
+    {
+        "ZDESC": "Cấm các loại xe (cơ giới và thô sơ) quay đầu theo kiểu chữ U, trừ các xe được ưu tiên theo luật lệ Nhà nước quy định.",
+        "ZIMAGE": "93_.png",
+        "ZINDEX": 17,
+        "ZNAME": "Cấm quay xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 341
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe đạp thồ đi qua. Biển này không cấm người dắt loại xe này.",
+        "ZIMAGE": "53_.png",
+        "ZINDEX": 3,
+        "ZNAME": "Cấm xe đạp thồ",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 342
+    },
+    {
+        "ZDESC": "Để báo đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua.",
+        "ZIMAGE": "65_.png",
+        "ZINDEX": 10,
+        "ZNAME": "Cấm xe xúc vật kéo",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 343
+    },
+    {
+        "ZDESC": "Cấm các loại xe cơ giới sử dụng còi.",
+        "ZIMAGE": "101_.png",
+        "ZINDEX": 31,
+        "ZNAME": "Cấm bóp còi",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 344
+    },
+    {
+        "ZDESC": "Cấm rẽ trái (theo hướng mũi tên chỉ) ở những chỗ đường giao nhau. Biển có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo luật lệ Nhà nước quy định được rẽ trái.",
+        "ZIMAGE": "89_.png",
+        "ZINDEX": 15,
+        "ZNAME": "Cấm rẽ trái",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 345
+    },
+    {
+        "ZDESC": "Đường cấm các loại xe (cơ giới và thô sơ) kéo theo moóc kể cả ôtô sơ-mi rơ-moóc và các loại xe được ưu tiên kéo moóc theo luật lệ nhà nước quy định, có độ dài toàn bộ kể cả xe, moóc và hàng lớn hơn trị số ghi trên biển đi qua.",
+        "ZIMAGE": "83_.png",
+        "ZINDEX": 43,
+        "ZNAME": "Hạn chế chiều dài ôtô kéo moóc",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 346
+    },
+    {
+        "ZDESC": "Để báo đường cấm tất cả các loại ôtô tải có trọng lượng lớn nhất cho phép (bao gồm trọng lượng xe và hàng) trên 3,5 Tấn đi qua trừ các xe được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "45_.png",
+        "ZINDEX": 39,
+        "ZNAME": "Cấm ôtô tải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 347
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe cơ giới kể cả môtô 3 bánh có thùng xe rẽ phải, trừ môtô hai bánh, xe gắn máy và các xe được ưu tiên theo luật lệ nhà nước.",
+        "ZIMAGE": "38_.png",
+        "ZINDEX": 35,
+        "ZNAME": "Cấm ôtô rẽ phải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 348
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe ba bánh loại không có động cơ như xích lô, xe lôi, xe đạp v.v...",
+        "ZIMAGE": "61_.png",
+        "ZINDEX": 7,
+        "ZNAME": "Cấm xe ba bánh loại không có động cơ",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 349
+    },
+    {
+        "ZDESC": "Biểu thị ở ngã đường phía trước cấm tất cả các loại xe cộ rẽ trái và rẽ phải.",
+        "ZIMAGE": "115_.png",
+        "ZINDEX": 27,
+        "ZNAME": "Cấm rẽ trái và rẽ phải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 350
+    },
+    {
+        "ZDESC": "Biển báo các xe cơ giới được phép vượt nhau nhưng phải theo đúng luật đi đường bộ quy định về điều kiện cho phép vượt nhau.",
+        "ZIMAGE": "109_.png",
+        "ZINDEX": 23,
+        "ZNAME": "Hết cấm vượt",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 351
+    },
+    {
+        "ZDESC": "Cấm các loại xe cơ giới vượt nhau kể cả các xe được ưu tiên theo luật lệ Nhà nước quy định. Được phép vượt xe mô tô 2 bánh, xe gắn máy.",
+        "ZIMAGE": "97_.png",
+        "ZINDEX": 19,
+        "ZNAME": "Cấm vượt",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 352
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe gắn máy đi qua. Biển không có giá trị đối với xe đạp.",
+        "ZIMAGE": "55_.png",
+        "ZINDEX": 4,
+        "ZNAME": "Cấm xe gắn máy",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 353
+    },
+    {
+        "ZDESC": "Để báo đường cấm các loại xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ của nhà nước quy định, có trọng lượng toàn bộ (cả xe và hàng) vượt quá trị số ghi trên biển đi qua.",
+        "ZIMAGE": "67_.png",
+        "ZINDEX": 11,
+        "ZNAME": "Hạn chế trọng lượng xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 354
+    },
+    {
+        "ZDESC": "Cấm các xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ nhà nước quy định có chiều ngang (kể cả xe và hàng hóa) vượt quá trị số ghi trên biển không được đi qua.",
+        "ZIMAGE": "76_.png",
+        "ZINDEX": 13,
+        "ZNAME": "Hạn chế chiều ngang",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 355
+    },
+    {
+        "ZDESC": "Để báo các loại xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ nhà nước quy định đi theo chiều nhìn thấy biển phải nhường đường cho các loại xe cơ giới đi theo hướng ngược lại khi đi qua các đoạn đường và cầu hẹp.",
+        "ZIMAGE": "107_.png",
+        "ZINDEX": 46,
+        "ZNAME": "Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 356
+    },
+    {
+        "ZDESC": "Để báo đường cấm các loại xe (cơ giới và thô sơ) kể cả các xe được ưu tiên theo luật lệ của nhà nước quy định, có trọng lượng toàn bộ (cả xe và hàng) phân bổ trên một trục bất kỳ của xe vượt quá trị số ghi trên biển đi qua.",
+        "ZIMAGE": "69_.png",
+        "ZINDEX": 42,
+        "ZNAME": "Hạn chế trọng lượng trên trục xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 357
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe cơ giới và môtô đi qua trừ xe gắn máy và các xe ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "43_.png",
+        "ZINDEX": 38,
+        "ZNAME": "Cấm ôtô và môtô",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 358
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe cơ giới kể cả môtô 3 bánh có thùng đi qua, trừ môtô hai bánh, xe gắn máy và các xe được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "36_.png",
+        "ZINDEX": 34,
+        "ZNAME": "Cấm ôtô",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 359
+    },
+    {
+        "ZDESC": "Cấm tất cả các loại ô tô tải có trọng lượng lớn nhất cho phép (bao gồm trọng lượng xe và hàng) trên 3.5 tấn kể cả các xe được ưu tiên theo luật lệ Nhà nước quy định vượt nhau. Được phép vượt xe mô tô 2 bánh, xe gắn máy.",
+        "ZIMAGE": "98_.png",
+        "ZINDEX": 30,
+        "ZNAME": "Cấm ôtô tải vượt",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 360
+    },
+    {
+        "ZDESC": "Biểu thị ở phía trước cấm tất cả các loại xe đi thẳng.",
+        "ZIMAGE": "114_.png",
+        "ZINDEX": 26,
+        "ZNAME": "Cấm đi thẳng",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 361
+    },
+    {
+        "ZDESC": "Để báo nơi cấm dừng xe và đỗ xe. Biển có hiệu lực cấm tất cả các loại xe cơ giới dừng và đỗ lại ở phía đường có đặt biển, trừ các xe được ưu tiên theo luật lệ Nhà nước quy định.",
+        "ZIMAGE": "105_.png",
+        "ZINDEX": 22,
+        "ZNAME": "Cấm dừng xe và đỗ xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 362
+    },
+    {
+        "ZDESC": "Cấm xe ôtô và xe môtô 3 bánh (cide car) quay đầu theo kiểu chữ U, trừ các xe được ưu tiên theo luật lệ Nhà nước quy định.",
+        "ZIMAGE": "95_.png",
+        "ZINDEX": 18,
+        "ZNAME": "Cấm ôtô quay đầu xe",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 363
+    },
+    {
+        "ZDESC": "Để báo đường cấm đi bộ qua lại.",
+        "ZIMAGE": "62_.png",
+        "ZINDEX": 8,
+        "ZNAME": "Cấm người đi bộ",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 364
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe cơ giới kéo theo rơ-moóc kể cả môtô, máy kéo, ôtô khách kéo theo rơ-moóc đi qua, trừ loại ôtô sơ-mi rơ-moóc và các loại xe được ưu tiên (có kéo theo rơ-moóc) theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "48_.png",
+        "ZINDEX": 41,
+        "ZNAME": "Cấm ôtô kéo moóc",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 365
+    },
+    {
+        "ZDESC": "Biển có hiệu lực buộc các xe cơ giới và thô sơ kể cả các xe được ưu tiên theo luật lệ Nhà nước quy định dừng lại trước biển hoặc trước vạch ngang đường và chỉ được phép đi khi thấy các tín hiệu (do người điều khiển giao thông hoặc đèn, cờ) cho phép đi.",
+        "ZIMAGE": "86_.png",
+        "ZINDEX": 45,
+        "ZNAME": "Dừng lại",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 366
+    },
+    {
+        "ZDESC": "Để báo cấm rẽ phải (theo hướng mũi tên chỉ) ở những chỗ đường giao nhau. Biển có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo luật lệ Nhà nước quy định được rẽ phải.",
+        "ZIMAGE": "91_.png",
+        "ZINDEX": 16,
+        "ZNAME": "Cấm rẽ phải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 367
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại xe (cơ giới và thô sơ) đi vào theo chiều đặt biển, trừ các xe được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "32_.png",
+        "ZINDEX": 33,
+        "ZNAME": "Cấm đi ngược chiều",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 368
+    },
+    {
+        "ZDESC": "Đường cấm tất cả các loại môtô đi qua, trừ các xe môtô được ưu tiên theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "41_.png",
+        "ZINDEX": 37,
+        "ZNAME": "Cấm môtô",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 369
+    },
+    {
+        "ZDESC": "Để báo đường cấm xe ba bánh loại có động cơ như xe lam, xích lô máy, xe lôi máy v.v...",
+        "ZIMAGE": "57_.png",
+        "ZINDEX": 5,
+        "ZNAME": "Cấm xe ba bánh loại có động cơ (xem lam)",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 370
+    },
+    {
+        "ZDESC": "Biểu thị ở ngã tư, ngã năm đường phía trước cấm tất cả các loại xe đi thẳng và rẽ phải.",
+        "ZIMAGE": "120_.png",
+        "ZINDEX": 29,
+        "ZNAME": "Cấm đi thẳng và rẽ phải",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 371
+    },
+    {
+        "ZDESC": "Biển báo hiệu đoạn đường hết tất cả các lệnh cấm.",
+        "ZIMAGE": "112_.png",
+        "ZINDEX": 25,
+        "ZNAME": "Hết tất cả các lệnh cấm",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 372
+    },
+    {
+        "ZDESC": "Để báo nơi đặt trạm kiểm tra, các loại phương tiện vận tải qua đó phải dừng lại để làm thủ tục kiểm tra, kiểm soát theo luật lệ nhà nước quy định.",
+        "ZIMAGE": "103_.png",
+        "ZINDEX": 21,
+        "ZNAME": "Kiểm tra",
+        "ZSIGNCATEGORY": 9,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 373
+    },
+    {
+        "ZDESC": "Biểu thị xe cộ đi đến chỗ cắm biển đó thì phải ấn còi.",
+        "ZIMAGE": "228_.png",
+        "ZINDEX": 58,
+        "ZNAME": "Ấn còi",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 374
+    },
+    {
+        "ZDESC": "Báo các loại xe (cơ giới và thô sơ) hướng đi để qua một chướng ngại vật. Biển được đặt trước chướng ngại vật và tùy theo hướng đi vòng sang phải hay sang trái mà lựa chọn theo kiểu biển cho phù hợp. Biển có hiệu lực bắt buộc các loại xe phải đi vòng chướng ngại vật theo hướng mũi tên chỉ.",
+        "ZIMAGE": "206_.png",
+        "ZINDEX": 59,
+        "ZNAME": "Hướng phải đi vòng chướng ngại vật",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 375
+    },
+    {
+        "ZDESC": "Báo các loại xe (cơ giới và thô sơ) hướng đi để qua một chướng ngại vật. Biển được đặt trước chướng ngại vật và tùy theo hướng đi vòng sang phải hay sang trái mà lựa chọn theo kiểu biển cho phù hợp. Biển có hiệu lực bắt buộc các loại xe phải đi vòng chướng ngại vật theo hướng mũi tên chỉ.",
+        "ZIMAGE": "210_.png",
+        "ZINDEX": 60,
+        "ZNAME": "Hướng phải đi vòng chướng ngại vật",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 376
+    },
+    {
+        "ZDESC": "Báo đường dành cho xe thô sơ (kể cả xe của người tàn tật) và người đi bộ. Biển có hiệu lực bắt buộc các loại xe thô sơ (kể cả xe của người tàn tật) và người đi bộ phải dùng đường dành riêng này để đi. Cấm các xe cơ giới kể cả xe gắn máy, các xe được ưu tiên theo luật lệ Nhà nước quy định vào đường đã đặt biển này, trừ trường hợp đi cắt ngang qua nhưng phải đảm bảo tuyệt đối an toàn cho xe thô sơ và người đi bộ.",
+        "ZIMAGE": "215_.png",
+        "ZINDEX": 61,
+        "ZNAME": "Đường dành cho xe thô sơ",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 377
+    },
+    {
+        "ZDESC": "Báo đường dành cho người đi bộ. Các loại xe cơ giới và thô sơ kể cả các xe được ưu tiên theo luật lệ Nhà nước quy định không được phép đi vào đường đã đặt biển này, trừ trường hợp đi cắt ngang qua nhưng phải đảm bảo tuyệt đối an toàn cho người đi bộ.",
+        "ZIMAGE": "217_.png",
+        "ZINDEX": 62,
+        "ZNAME": "Đường dành cho người đi bộ",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 378
+    },
+    {
+        "ZDESC": "Báo tốc độ tối thiểu cho phép các xe cơ giới chạy. Biển có hiệu lực cấm các loại xe cơ giới chạy với tốc độ nhỏ hơn trị số ghi trên biển. Các loại xe do sự chế tạo có tốc độ tối đa không đạt tốc độ tối thiểu đã ghi không được phép đi vào đường này. Trị số ghi trên biển chỉ tốc độ tối thiểu cho phép tính bằng km/h.",
+        "ZIMAGE": "100_.png",
+        "ZINDEX": 63,
+        "ZNAME": "Tốc độ tối thiểu cho phép",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 379
+    },
+    {
+        "ZDESC": "Báo hết đoạn đường hạn chế tốc độ tối thiểu. Biển có giá trị báo cho người lái xe biết hiệu lực của biển số 306 hết tác dụng, kể từ biển này các loại xe được phép chạy chậm hơn trị số ghi trên biển nhưng không được gây cản trở các xe khác.",
+        "ZIMAGE": "221_.png",
+        "ZINDEX": 64,
+        "ZNAME": "Hết hạn chế tốc độ tối thiểu",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 380
+    },
+    {
+        "ZDESC": "Biểu thị tại cầu vượt, xe có thể đi thẳng hoặc theo chỉ dẫn trên hình vẽ để rẽ phải. Biển đặt tại vị trí thích hợp ngay trước khi vào đường rẽ phải hoặc qua cầu vượt.",
+        "ZIMAGE": "226_.png",
+        "ZINDEX": 57,
+        "ZNAME": "Tuyến đường cầu vượt cắt qua",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 381
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được đi thẳng.",
+        "ZIMAGE": "194_.png",
+        "ZINDEX": 47,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 382
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được rẽ phải.",
+        "ZIMAGE": "197_.png",
+        "ZINDEX": 48,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 383
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được rẽ trái.",
+        "ZIMAGE": "198_.png",
+        "ZINDEX": 49,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 384
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được rẽ phải.",
+        "ZIMAGE": "199_.png",
+        "ZINDEX": 50,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 385
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được rẽ trái.",
+        "ZIMAGE": "200_.png",
+        "ZINDEX": 51,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 386
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được đi thẳng và rẽ phải.",
+        "ZIMAGE": "201_.png",
+        "ZINDEX": 52,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 387
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được đi thẳng và rẽ trái.",
+        "ZIMAGE": "202_.png",
+        "ZINDEX": 53,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 388
+    },
+    {
+        "ZDESC": "Để báo cho các loại xe (thô sơ và cơ giới) chỉ được rẽ trái và rẽ phải.",
+        "ZIMAGE": "204_.png",
+        "ZINDEX": 54,
+        "ZNAME": "Hướng đi phải theo",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 389
+    },
+    {
+        "ZDESC": "Báo cho các loại xe (cơ giới và thô sơ) phải chạy vòng theo đảo an toàn ở các ngã ba, ngã tư. Biển có hiệu lực bắt buộc các loại xe muốn chuyển hướng phải chạy vòng theo, đảo an toàn theo hướng mũi tên chỉ.",
+        "ZIMAGE": "212_.png",
+        "ZINDEX": 55,
+        "ZNAME": "Nơi giao nhau chạy theo vòng xuyến",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 390
+    },
+    {
+        "ZDESC": "Biểu thị tại cầu vượt, xe có thể đi thẳng hoặc theo chỉ dẫn trên hình vẽ để rẽ trái. Biển đặt tại vị trí thích hợp ngay trước khi vào đường rẽ trái hoặc qua cầu vượt.",
+        "ZIMAGE": "224_.png",
+        "ZINDEX": 56,
+        "ZNAME": "Tuyến đường cầu vượt cắt qua",
+        "ZSIGNCATEGORY": 10,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 391
+    },
+    {
+        "ZDESC": "Là vạch hình tam giác cân màu trắng vạch chỉ rõ vị trí mà lái xe phải dừng để nhường cho các phương tiện khác ở đường ưu tiên.",
+        "ZIMAGE": "160_.png",
+        "ZINDEX": 71,
+        "ZNAME": "Vạch nằm ngang 13",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 392
+    },
+    {
+        "ZDESC": "Vạch liền, màu trắng, rộng 20 cm, dùng để xác định mép phần xe chạy trên các trục đường. Xe chạy được phép cắt ngang hoặc đè lên vạch khi cần thiết.",
+        "ZIMAGE": "137_.png",
+        "ZINDEX": 65,
+        "ZNAME": "Vạch nằm ngang 2",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 393
+    },
+    {
+        "ZDESC": "Vạch chỉ rõ vị trí xe phải dừng lại khi có biển báo số 122 “Stop” hoặc khi có tín hiệu đèn đỏ. Vạch này kẻ ngang toàn bộ đường của hướng xe chạy. Trong trường hợp không có biển 122 hoặc không có đèn hay người điều khiển thì vạch 1.12 không có hiệu lực.",
+        "ZIMAGE": "159_.png",
+        "ZINDEX": 95,
+        "ZNAME": "Vạch nằm ngang 12",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 394
+    },
+    {
+        "ZDESC": "Là vạch đen trắng xen kẽ nằm ngang. Vạch kẻ xung quanh các cột tròn đặt trên các đẩo an toàn hoặc trên giải phân cách và các nới khác.",
+        "ZIMAGE": "180_.png",
+        "ZINDEX": 85,
+        "ZNAME": "Vạch nằm đứng 3",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 395
+    },
+    {
+        "ZDESC": "“Ngựa vằn” màu trắng, xác định đảo phân chia dòng phương tiện ngược chiều nhau.",
+        "ZIMAGE": "165_.png",
+        "ZINDEX": 73,
+        "ZNAME": "Vạch nằm ngang 16.1",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 396
+    },
+    {
+        "ZDESC": "Là vạch đứt quãng, màu trắng, rộng 10 cm, tỷ lệ L1:L2 = 1:3. Vạch dùng để phân chia 2 dòng phương tiện giao thông từ 2 hướng ngược chiều nhau trên các đường có 2 hoặc 3 làn xe chạy. Xác định ranh giới làn xe khi có 2 hoặc trên 2 làn xe chạy theo một hướng.",
+        "ZIMAGE": "141_.png",
+        "ZINDEX": 92,
+        "ZNAME": "Vạch nằm ngang 5",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 397
+    },
+    {
+        "ZDESC": "Kẻ ở thành rào có chắn, chỗ đường vòng có bán kính nhỏ, đường cao hơn so với khu vực xung quanh, dốc xuống với những nơi nguy hiểm khác.",
+        "ZIMAGE": "182_.png",
+        "ZINDEX": 87,
+        "ZNAME": "Vạch nằm đứng 5",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 398
+    },
+    {
+        "ZDESC": "Vạch sơn sóng màu vàng quay định vị trí dừng của xe các phương tiện vận tải Theo tuyến quay định hoặc nơi tập kết của tắc xi, cấm dừng hoặc đỗ của bất kì một lọai phương tiện nào về cả hai phía và cách vạch 15cm.",
+        "ZIMAGE": "171_.png",
+        "ZINDEX": 76,
+        "ZNAME": "Vạch nằm ngang 17",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 399
+    },
+    {
+        "ZDESC": "Là vạch đứt quãng màu trắng rộng 0,1m, khoảng cách giữa hai vạch là 0,5m. Vạch được kẻ Theo đường cong Theo chiều xe chạy ở chỗ giao nhau khi lái xe cần định hướng chung để đảm bảo an toàn khi qua chỗ giao nhau.",
+        "ZIMAGE": "144_.png",
+        "ZINDEX": 68,
+        "ZNAME": "Vạch nằm ngang 7",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 400
+    },
+    {
+        "ZDESC": "Kẻ ở thành các vỉa hè nơi nguy hiểm, thành dọc của đảo an toàn.",
+        "ZIMAGE": "184_.png",
+        "ZINDEX": 89,
+        "ZNAME": "Vạch nằm đứng 7",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 401
+    },
+    {
+        "ZDESC": "Kẻ trên thành rào chắn bố trí ở những nơi đặc biệt nguy hiểm.",
+        "ZIMAGE": "183_.png",
+        "ZINDEX": 88,
+        "ZNAME": "Vạch nằm đứng 6",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 402
+    },
+    {
+        "ZDESC": "Màu trắng, xác định sắp đến gần vạch 113 và biển báo số 108, khoảng cách đến vạch 1.13 Theo tim đường từ 2-2,5m (đường cao tốc có thể lớn hơn), lái xe được phép chạy đè lên vạch 1.13 không cần dừng lại.",
+        "ZIMAGE": "174_.png",
+        "ZINDEX": 79,
+        "ZNAME": "Vạch nằm ngang 20",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 403
+    },
+    {
+        "ZDESC": "Là vạch liên tục màu vàng có chiều rộng 10 cm, để xác định nơi cấm dừng và cấm đỗ xe.",
+        "ZIMAGE": "139_.png",
+        "ZINDEX": 66,
+        "ZNAME": "Vạch nằm ngang 4",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 404
+    },
+    {
+        "ZDESC": "Vạch màu trắng, vạch xác định sắp đến vị trí thắt hẹp của phần xe chạy, báo cho người lái xe biết rằng số làn xe Theo hướng mũi tên bị giảm và lái xe phải từ từ chuyển làn Theo hướng mũi tên.",
+        "ZIMAGE": "173_.png",
+        "ZINDEX": 78,
+        "ZNAME": "Vạch nằm ngang 19",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 405
+    },
+    {
+        "ZDESC": "Là vạch đứt quãng màu trắng rộng 0,4m. Vạch dùng để quay định danh giới làn xe tăng tốc độ hoặc giảm tốc độ (gọi là chuyển tới làn đường) và làn xe chính của phần xe chạy.",
+        "ZIMAGE": "148_.png",
+        "ZINDEX": 69,
+        "ZNAME": "Vạch nằm ngang 8",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 406
+    },
+    {
+        "ZDESC": "Là vạch đứt quãng màu trắng, rộng 10 cm. Tỷ lệ L1:L2 = 3:1, dùng để báo hiệu gần đến vạch 1-1 hay 1-11, để phân chia dòng xe ngược chiều hay cùng chiều.",
+        "ZIMAGE": "143_.png",
+        "ZINDEX": 67,
+        "ZNAME": "Vạch nằm ngang 6",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 407
+    },
+    {
+        "ZDESC": "Là vạch kép (2 vạch liên tục) màu trắng, có chiều rộng bằng nhau và bằng 10 cm, cách nhau là 10 cm, dùng để phân chia 2 dòng phương tiện giao othong từ 2 hướng ngược chiều nhau trên những đường có từ 4 làn đường trở lên. Xe chạy không được đè qua vạch.",
+        "ZIMAGE": "138_.png",
+        "ZINDEX": 91,
+        "ZNAME": "Vạch nằm ngang 3",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 408
+    },
+    {
+        "ZDESC": "Là chữ “Stop” (dừng lại) màu trắng, xác định gần đến vị trí dừng lại vạch 1.12 và biển báo số 122. Vạch 1.21 cách vạch dừng xe từ 2-2,5m.",
+        "ZIMAGE": "175_.png",
+        "ZINDEX": 80,
+        "ZNAME": "Vạch nằm ngang 21",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 409
+    },
+    {
+        "ZDESC": "Là vạch chỉ làn xe dành cho ô tô khách chạy Theo tuyến quay định.",
+        "ZIMAGE": "177_.png",
+        "ZINDEX": 82,
+        "ZNAME": "Vạch nằm ngang 23",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 410
+    },
+    {
+        "ZDESC": "Là vạch chỉ số hiệu đường, được kẻ trên đường quốc lộ và được kẻ trực tiếp trên mặt đường xe chạy.",
+        "ZIMAGE": "176_.png",
+        "ZINDEX": 81,
+        "ZNAME": "Vạch nằm ngang 22",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 411
+    },
+    {
+        "ZDESC": "Là vạch đứt quãng màu vàng. Vạch xác định vị trí hay khu vực cấm đỗ xe.",
+        "ZIMAGE": "154_.png",
+        "ZINDEX": 70,
+        "ZNAME": "Vạch nằm ngang 10",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 412
+    },
+    {
+        "ZDESC": "Là vạch \"sọc ngựa vằn\" gồm các đường màu trắng song song với tim đường, rộng 40 cm, cách nhau 60 cm. Vạch quy định nơi người đi bộ qua đường.",
+        "ZIMAGE": "161_.png",
+        "ZINDEX": 72,
+        "ZNAME": "Vạch nằm ngang 14",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 413
+    },
+    {
+        "ZDESC": "Vạch xác định đảo phân chia dòng phương tiện Theo cùng một hướng. Tại đó dòng phương tiện chạy cùng hướng được phân chia ra nhiều dòng (làn ) khác nhau.",
+        "ZIMAGE": "168_.png",
+        "ZINDEX": 74,
+        "ZNAME": "Vạch nằm ngang 16.2",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 414
+    },
+    {
+        "ZDESC": "Màu trắng chỉ dẫn các hướng đi cho phép của các làn xe ở nơi giao nhau. Lái xe khi gặp biển này bắt buộc phải tuân Theo mũi tên chỉ hướng đi",
+        "ZIMAGE": "172_.png",
+        "ZINDEX": 77,
+        "ZNAME": "Vạch nằm ngang 18",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 415
+    },
+    {
+        "ZDESC": "Xác định các bộ phận thẳng đứng của các công trình giao thông như trụ cầu, cầu vượt đường…để chỉ dẫn những chỗ nguy hiểm đối với phương tiện giao thông đi qua.",
+        "ZIMAGE": "178_.png",
+        "ZINDEX": 83,
+        "ZNAME": "Vạch nằm đứng 1",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 416
+    },
+    {
+        "ZDESC": "Là vạch trắng đen xen kẽ thẳng đứng, xác định cạnh dưới cùng của cầu và cầu vượt đường.",
+        "ZIMAGE": "179_.png",
+        "ZINDEX": 84,
+        "ZNAME": "Vạch nằm đứng 2",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 417
+    },
+    {
+        "ZDESC": "Đảo nhập dòng phương tiện. Tại đó dòng phương tiện chạy cùng hướng nhập với nhau.",
+        "ZIMAGE": "170_.png",
+        "ZINDEX": 75,
+        "ZNAME": "Vạch nằm ngang 16.3",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 418
+    },
+    {
+        "ZDESC": "Là vạch xiên góc màu đen tạo với mặt phẳng ngang góc 30o rộng 0,15m dùng để kẻ trên các cột tín hiệu, cột rào chắn, cọc tiêu.",
+        "ZIMAGE": "181_.png",
+        "ZINDEX": 86,
+        "ZNAME": "Vạch nằm đứng 4",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 419
+    },
+    {
+        "ZDESC": "Vạch liền, nét màu trắng, rộng 10 cm, dùng để phân chia 2 dòng phương tiện giao thông đi ngược chiều nhau, xác định ranh giới phần đường cấm, ranh giới nơi đỗ xe, ranh giới của làn xe ở vị trí nguy hiểm. Đối với vạch này xe không được đè lên vạch.",
+        "ZIMAGE": "134_.png",
+        "ZINDEX": 90,
+        "ZNAME": "Vạch nằm ngang 1",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 420
+    },
+    {
+        "ZDESC": "Là loại vạch kép (hai vạch) đứt quãng, song song, màu trắng rộng 0,1m và cách nhau 0,1 m. Vạch quay định danh giới làn xe dự trữ mà trên làn này chiều xe chạy có thể thay đổi hoặc hoặc chiều thuận hoặc chiều đi ngược lại. Sự thay đổi hướng xe được điều khiển bằng tín hiệu đèn xanh và đỏ đặt trên làn xe.",
+        "ZIMAGE": "151_.png",
+        "ZINDEX": 93,
+        "ZNAME": "Vạch nằm ngang 9",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 421
+    },
+    {
+        "ZDESC": "Là hai vạch song song (vạch kép) màu trắng, một vạch đứt quãng và một vạch liền liền nét. Vạch dùng để phân chia dòng phương tiện hai hướng ngược chiều nhau trên các đường có hai hoặc ba làn xe chạy. Lái xe được phép cắt ngang qua vạch từ phía có vạch đứt quãng.",
+        "ZIMAGE": "157_.png",
+        "ZINDEX": 94,
+        "ZNAME": "Vạch nằm ngang 11",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 422
+    },
+    {
+        "ZDESC": "Vạch gồm 2 vạch đứt quãng chạy song song, cách nhau 1.8 mét, chiều dài, chiều rộng và khoảng cách giữa các vạch của vạch đứt quãng bằng nhau và bằng 40 cm. Vạch xác định vị trí chỗ xe đạp đi ngang qua xe đường của xe cơ giới. Xe đạp phải nhường đường cho phương tiện cơ giới chạy trên tuyến đường cắt ngang đường xe đạp.",
+        "ZIMAGE": "162_.png",
+        "ZINDEX": 96,
+        "ZNAME": "Vạch nằm ngang 15",
+        "ZSIGNCATEGORY": 11,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 423
+    },
+    {
+        "ZDESC": "Biển được sử dụng độc lập để báo trước cho người biết gần đến chỗ rẽ nguy hiểm và để chỉ hướng rẽ.",
+        "ZIMAGE": "125_.png",
+        "ZINDEX": 109,
+        "ZNAME": "Hướng rẽ",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 424
+    },
+    {
+        "ZDESC": "Biển được đặt bên dưới biển chỉ dẫn số 401 trên đường ưu tiên để chỉ dẫn cho người lái xe trên đường này biết hướng đường ưu tiên ở ngã tư.",
+        "ZIMAGE": "122_.png",
+        "ZINDEX": 107,
+        "ZNAME": "Hướng đường ưu tiên",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 425
+    },
+    {
+        "ZDESC": "Biển được đặt bên dưới các biển báo cấm và biển hiệu lệnh hay biển chỉ dẫn để chỉ loại xe chịu hiệu lực của biển báo cấm, biển hiệu lệnh hay biển chỉ dẫn đối với riêng loại xe đó.",
+        "ZIMAGE": "121_.png",
+        "ZINDEX": 106,
+        "ZNAME": "Loại xe",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 426
+    },
+    {
+        "ZDESC": "Biển được đặt bên dưới các biển báo cấm và biển hiệu lệnh hay bên dưới đèn hiệu để chỉ làn đường chịu hiệu lực của biển (hay đèn hiệu) báo lệnh cấm - và hiệu lệnh trên làn đường đó.",
+        "ZIMAGE": "119_.png",
+        "ZINDEX": 105,
+        "ZNAME": "Làn đường",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 427
+    },
+    {
+        "ZDESC": "Để chỉ hướng tác dụng của biển là hướng song song với chiều đi.",
+        "ZIMAGE": "117_.png",
+        "ZINDEX": 104,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 428
+    },
+    {
+        "ZDESC": "Để chỉ đồng thời 2 hướng tác dụng (xuôi và ngược) của biển báo nhắc lại lệnh cấm dừng và cấm đỗ xe.",
+        "ZIMAGE": "116_.png",
+        "ZINDEX": 103,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 429
+    },
+    {
+        "ZDESC": "Để chỉ hướng tác dụng của biển là hướng song song với chiều đi.",
+        "ZIMAGE": "113_.png",
+        "ZINDEX": 102,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 430
+    },
+    {
+        "ZDESC": "Đặt bên dưới các biển báo cấm, biển hiệu lệnh để chỉ hướng tác dụng của biển là hướng vuông góc với chiều đi.",
+        "ZIMAGE": "110_.png",
+        "ZINDEX": 101,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 431
+    },
+    {
+        "ZDESC": "Để chỉ đồng thời 2 hướng tác dụng (trái và phải) của biển chính hoặc được đặt với biển báo nhắc lại lệnh cấm và hiệu lệnh.",
+        "ZIMAGE": "108_.png",
+        "ZINDEX": 100,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 432
+    },
+    {
+        "ZDESC": "Đặt bên dưới các biển báo cấm, biển hiệu lệnh để chỉ hướng tác dụng của biển là hướng vuông góc với chiều đi.",
+        "ZIMAGE": "106_.png",
+        "ZINDEX": 99,
+        "ZNAME": "Hướng tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 433
+    },
+    {
+        "ZDESC": "Để thông báo chiều dài đoạn đường nguy hiểm hay đoạn đường phải thi hành lệnh cấm hoặc hạn chế.",
+        "ZIMAGE": "102_.png",
+        "ZINDEX": 97,
+        "ZNAME": "Phạm vi tác dụng của biển",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 434
+    },
+    {
+        "ZDESC": "Để thông báo khoảng cách thực tế từ vị trí đặt biển đến đối tượng báo hiệu ở phía trước.",
+        "ZIMAGE": "104_.png",
+        "ZINDEX": 98,
+        "ZNAME": "Khoảng cách đến đối tượng báo hiệu",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 435
+    },
+    {
+        "ZDESC": "Biểu thị thời gian.",
+        "ZIMAGE": "127_.png",
+        "ZINDEX": 110,
+        "ZNAME": "Biểu thị thời gian",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 436
+    },
+    {
+        "ZDESC": "Để bổ sung cho biển 239 \"Đường cáp điện ở phía trên\", phải đặt biển số 509 \"chiều cao an toàn\", biển này chỉ rõ chiều cao an toàn cho các phương tiện đi qua đoạn đường có dây điện bên trên.",
+        "ZIMAGE": "129_.png",
+        "ZINDEX": 111,
+        "ZNAME": "Chiều cao an toàn",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 437
+    },
+    {
+        "ZDESC": "Biển được đặt bên dưới biển số 208 và biển số 122 trên đường không ưu tiên để chỉ dẫn cho người lái xe trên đường này biết hướng đường ưu tiên ở ngã tư.",
+        "ZIMAGE": "124_.png",
+        "ZINDEX": 108,
+        "ZNAME": "Hướng đường ưu tiên",
+        "ZSIGNCATEGORY": 12,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 438
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có khách sạn phục vụ khách đi đường.",
+        "ZIMAGE": "79_.png",
+        "ZINDEX": 132,
+        "ZNAME": "Khách sạn",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 439
+    },
+    {
+        "ZDESC": "Đặt biển tại vị trí thích hợp trước trước khi vào cầu vượt",
+        "ZIMAGE": "99_.png",
+        "ZINDEX": 141,
+        "ZNAME": "Chỉ dẫn cầu vượt liên thông",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 440
+    },
+    {
+        "ZDESC": "Đến hết đoạn đường dành cho ôtô, xe máy đi lại phải đặt biển số 404b \"Hết đường danh cho ôtô, xe máy\"",
+        "ZIMAGE": "27_.png",
+        "ZINDEX": 150,
+        "ZNAME": "Hết đường dành cho ôtô, xe máy",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 441
+    },
+    {
+        "ZDESC": "Để chỉ lối rẽ vào đường cụt.",
+        "ZIMAGE": "30_.png",
+        "ZINDEX": 118,
+        "ZNAME": "Đường cụt",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 442
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có đặt xưởng chuyên phục vụ sửa chữa ôtô, môtô hỏng trên đường.",
+        "ZIMAGE": "71_.png",
+        "ZINDEX": 127,
+        "ZNAME": "Trạm sửa chữa",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 443
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "287_.png",
+        "ZINDEX": 146,
+        "ZNAME": "Hết khu đông dân cư",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 444
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe biết số lượng làn đường trên mặt đường và hướng đi trên mỗi làn đường theo vạch kẻ đường. Biển có tác dụng bắt buộc người lái xe phải giữ đúng hướng đã được chỉ dẫn trên mỗi làn.",
+        "ZIMAGE": "49_.png",
+        "ZINDEX": 160,
+        "ZNAME": "Hướng đi trên mỗi làn đường theo vạch kẻ đường",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 445
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe biết ở ngã ba, ngã tư rẽ phải là rẽ ra đường có làn đường dành cho ôtô khách.",
+        "ZIMAGE": "56_.png",
+        "ZINDEX": 120,
+        "ZNAME": "Rẽ ra đường có làn đường dành cho ôtô khách",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 446
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi được phép đỗ xe, những bãi đỗ xe, bến xe v.v... Chiều dài nơi đỗ xe có thể được xác định giới hạn bằng vạch kẻ trên mặt đường hoặc bãi đỗ có hình dáng rõ ràng. Phạm vi quy định đỗ xe sẽ hết hiệu lực 10m trước khi đến ngã ba, ngã tư tiếp theo.",
+        "ZIMAGE": "40_.png",
+        "ZINDEX": 156,
+        "ZNAME": "Nơi đỗ xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 447
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "283_.png",
+        "ZINDEX": 142,
+        "ZNAME": "Mũi tên chỉ đường đi",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 448
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những đoạn đường chạy một chiều đặt sau ngã ba, ngã tư.",
+        "ZIMAGE": "34_.png",
+        "ZINDEX": 153,
+        "ZNAME": "Đường một chiều",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 449
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "290_.png",
+        "ZINDEX": 113,
+        "ZNAME": "Lối đi đường vòng tránh",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 450
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi nghỉ mát.",
+        "ZIMAGE": "80_.png",
+        "ZINDEX": 119,
+        "ZNAME": "Nơi nghỉ mát",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 451
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có đặt trạm điện thoại công cộng chuyên phục vụ khách đi đường.",
+        "ZIMAGE": "75_.png",
+        "ZINDEX": 130,
+        "ZNAME": "Điện thoại",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 452
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe biết ở ngã ba, ngã tư rẽ trái là rẽ ra đường có làn đường dành cho ôtô khách.",
+        "ZIMAGE": "58_.png",
+        "ZINDEX": 121,
+        "ZNAME": "Rẽ ra đường có làn đường dành cho ôtô khách",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 453
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ xe buýt dùng cho hành khách lên xuống.",
+        "ZIMAGE": "81_.png",
+        "ZINDEX": 133,
+        "ZNAME": "Bến xe buýt",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 454
+    },
+    {
+        "ZDESC": "Để nhắc nhở lái xe chạy trên đường cao tốc phải tuân theo tốc độ quy định. Trong biển lồng gồm có biển: - Tốc độ tối thiểu (bắt buộc lái xe phải thực hiện). - Tốc độ tối đa cho phép. - Tốc độ cho phép khi chạy trời mưa, trơn ướt.",
+        "ZIMAGE": "90_.png",
+        "ZINDEX": 163,
+        "ZNAME": "Tốc độ cho phép chạy trên đường cao tốc",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 455
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người đi bộ và người lái xe biết nơi dành cho người đi bộ sang ngang. Gặp biển này người lái xe phải ưu tiên cho người đi bộ sang ngang.",
+        "ZIMAGE": "66_.png",
+        "ZINDEX": 124,
+        "ZNAME": "Đường người đi bộ sang ngang",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 456
+    },
+    {
+        "ZDESC": "Đến hết đoạn đường dành cho ô tô đi lại phải đặt biển số 404a \"Hết đường dành cho ô tô\".",
+        "ZIMAGE": "26_.png",
+        "ZINDEX": 149,
+        "ZNAME": "Hết đường dành cho ôtô",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 457
+    },
+    {
+        "ZDESC": "Để chỉ dẫn bắt đầu đường cao tốc. Quy chế sử dụng đường cao tốc phải được thực hiện nghiêm ngặt.",
+        "ZIMAGE": "87_.png",
+        "ZINDEX": 136,
+        "ZNAME": "Đường cao tốc",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 458
+    },
+    {
+        "ZDESC": "Để chỉ dẫn khu vực được phép quay đầu xe kiểu chữ U. Trên biển mô tả cách thức tiến hành quay đầu xe. Biển không cho phép rẽ trái (trừ các xe được quyền ưu tiên theo khoản 2 điều 20 Luật Giao thông đường bộ).",
+        "ZIMAGE": "46_.png",
+        "ZINDEX": 159,
+        "ZNAME": "Khu vực quay xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 459
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "286_.png",
+        "ZINDEX": 145,
+        "ZNAME": "Bắt đầu khu đông dân cư",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 460
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những đoạn đường chạy một chiều đặt trước ngã ba, ngã tư.",
+        "ZIMAGE": "37_.png",
+        "ZINDEX": 155,
+        "ZNAME": "Đường một chiều",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 461
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có bố trí chỗ rửa xe.",
+        "ZIMAGE": "73_.png",
+        "ZINDEX": 129,
+        "ZNAME": "Nơi rửa xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 462
+    },
+    {
+        "ZDESC": "Đặt ở tất cả các ngã ba, ngã tư đường giao nhau để chỉ dẫn có một khu đông dân cư trên hướng đường đến.",
+        "ZIMAGE": "60_.png",
+        "ZINDEX": 122,
+        "ZNAME": "Chỉ hướng đường",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 463
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có cửa hàng ăn uống phục vụ khách đi đường.",
+        "ZIMAGE": "78_.png",
+        "ZINDEX": 131,
+        "ZNAME": "Cửa hàng ăn uống",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 464
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ có cơ sở điều trị bệnh ở gần đường như bệnh viện, bệnh xá, trạm xá, .v.v... Gặp biển này người lái xe phải thận trọng và tránh làm ồn.",
+        "ZIMAGE": "68_.png",
+        "ZINDEX": 125,
+        "ZNAME": "Bệnh viện",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 465
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "263_.png",
+        "ZINDEX": 116,
+        "ZNAME": "Cầu vượt cho người đi bộ",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 466
+    },
+    {
+        "ZDESC": "Dùng để biểu thị vị trí thiết bị chuyên dùng cho người tàn tật.",
+        "ZIMAGE": "96_.png",
+        "ZINDEX": 140,
+        "ZNAME": "Biển báo phần đường cho người tàn tật",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 467
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe cơ giới biết mình có quyền được ưu tiên đi trước trên đoạn đường hẹp khi gặp xe đi ngược chiều. Nếu trên hướng đi ngược chiều có xe (cơ giới hoặc thô sơ) đã đi vào phạm vi đường hẹp thì xe đi theo chiều ưu tiên cũng phải nhường đường .",
+        "ZIMAGE": "33_.png",
+        "ZINDEX": 152,
+        "ZNAME": "Được ưu tiên qua đường hẹp",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 468
+    },
+    {
+        "ZDESC": "Để báo hiệu xe có kéo moóc.",
+        "ZIMAGE": "94_.png",
+        "ZINDEX": 139,
+        "ZNAME": "Xe kéo moóc",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 469
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe biết đường có làn đường dành riêng cho ôtô khách theo chiều ngược lại. Biển được đặt ở ngã ba, ngã tư đầu đường một chiều mà hướng ngược chiều có ôtô khách được phép chạy.",
+        "ZIMAGE": "54_.png",
+        "ZINDEX": 162,
+        "ZNAME": "Đường có làn đường dành cho ôtô khách",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 470
+    },
+    {
+        "ZDESC": "Để chỉ dẫn bắt đầu đường dành cho các loại ôtô, xe máy (kể cả xe gắn máy) đi lại, các loại phương tiện giao thông khác không được phép đi vào đọan đường có đặt biển này.",
+        "ZIMAGE": "25_.png",
+        "ZINDEX": 148,
+        "ZNAME": "Đường dành cho ôtô, xe máy",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 471
+    },
+    {
+        "ZDESC": "Để chỉ dẫn vị trí được phép quay đầu xe kiểu chữ U. Biển không cho phép rẽ trái (trừ các xe được quyền ưu tiên theo khoản 2 điều 20 Luật Giao thông đường bộ).",
+        "ZIMAGE": "44_.png",
+        "ZINDEX": 158,
+        "ZNAME": "Chỗ quay xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 472
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "284_.png",
+        "ZINDEX": 144,
+        "ZNAME": "Lối đi ở chỗ cấm rẽ",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 473
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ có trạm cấp cứu y tế ở gần đường.",
+        "ZIMAGE": "70_.png",
+        "ZINDEX": 126,
+        "ZNAME": "Trạm cấp cứu",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 474
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những đoạn đường chạy một chiều đặt trước ngã ba, ngã tư.",
+        "ZIMAGE": "35_.png",
+        "ZINDEX": 154,
+        "ZNAME": "Đường một chiều",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 475
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "288_.png",
+        "ZINDEX": 114,
+        "ZNAME": "Hết khu vực nội thành",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 476
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ xe điện dùng cho hành khách lên xuống.",
+        "ZIMAGE": "82_.png",
+        "ZINDEX": 134,
+        "ZNAME": "Bến xe điện",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 477
+    },
+    {
+        "ZDESC": "Để chỉ dẫn hết đường cao tốc.",
+        "ZIMAGE": "88_.png",
+        "ZINDEX": 137,
+        "ZNAME": "Hết đường cao tốc",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 478
+    },
+    {
+        "ZDESC": "Để chỉ dẫn đường trước mắt là đường cụt",
+        "ZIMAGE": "31_.png",
+        "ZINDEX": 151,
+        "ZNAME": "Đường cụt",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 479
+    },
+    {
+        "ZDESC": "Để chỉ dẫn cho người lái xe biết có làn đường dành riêng cho ôtô khách (kể cả ôtô buýt, tắc-xi). Biển được đặt ở đầu đường theo hướng đi của ôtô khách. Các loại xe khác không được đi vào làn đường có đặt biển này (trừ các xe có quyền ưu tiên theo điều 20 Luật Giao thông đường bộ).",
+        "ZIMAGE": "51_.png",
+        "ZINDEX": 161,
+        "ZNAME": "Làn đường dành cho ôtô khách",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 480
+    },
+    {
+        "ZDESC": "Để chỉ dẫn bắt đầu đường dành cho các loại ô tô đi lại, các loại phương tiện giao thông khác không được phép đi vào đoạn đường có đặt biển này.",
+        "ZIMAGE": "24_.png",
+        "ZINDEX": 147,
+        "ZNAME": "Đường dành cho ôtô",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 481
+    },
+    {
+        "ZDESC": "Đặt ở tất cả các ngã ba, ngã tư đường giao nhau để chỉ dẫn có một khu đông dân cư trên hướng đường đến.",
+        "ZIMAGE": "63_.png",
+        "ZINDEX": 123,
+        "ZNAME": "Chỉ hướng đường",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 482
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi được phép đỗ xe, những bãi đỗ xe, bến xe v.v... Chiều dài nơi đỗ xe có thể được xác định giới hạn bằng vạch kẻ trên mặt đường hoặc bãi đỗ có hình dáng rõ ràng. Phạm vi quy định đỗ xe sẽ hết hiệu lực 10m trước khi đến ngã ba, ngã tư tiếp theo.",
+        "ZIMAGE": "42_.png",
+        "ZINDEX": 157,
+        "ZNAME": "Nơi đỗ xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 483
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "285_.png",
+        "ZINDEX": 143,
+        "ZNAME": "Chỉ hướng phải đi cho từng loại xe",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 484
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có đặt trạm cảnh sát giao thông. Những người sử dụng đường phải tuân theo những luật lệ nhà nước quy định khi đi qua nơi này.",
+        "ZIMAGE": "84_.png",
+        "ZINDEX": 135,
+        "ZNAME": "Trạm cảnh sát giao thông",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 485
+    },
+    {
+        "ZDESC": "Để chỉ lối rẽ vào đường cụt.",
+        "ZIMAGE": "29_.png",
+        "ZINDEX": 117,
+        "ZNAME": "Đường cụt",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 486
+    },
+    {
+        "ZDESC": "Để báo sắp đến khu vực có họp chợ, xe cộ qua lại khu vực này phải chú ý làm chủ tốc độ.",
+        "ZIMAGE": "92_.png",
+        "ZINDEX": 138,
+        "ZNAME": "Chợ",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 487
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có đặt trạm kinh doanh xăng dầu phục vụ cho xe cộ đi trên đường.",
+        "ZIMAGE": "72_.png",
+        "ZINDEX": 128,
+        "ZNAME": "Trạm cung cấp xăng dầu",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 488
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "282_.png",
+        "ZINDEX": 112,
+        "ZNAME": "Mũi tên chỉ đường đi",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 489
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "262_.png",
+        "ZINDEX": 115,
+        "ZNAME": "Cầu vượt cho người đi bộ",
+        "ZSIGNCATEGORY": 13,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 490
+    },
+    {
+        "ZDESC": "Báo trước sắp đến chỗ giao nhau giữa đường bộ và đường sắt không có rào chắn, không có người điều khiển giao thông.",
+        "ZIMAGE": "147_.png",
+        "ZINDEX": 174,
+        "ZNAME": "Giao nhau với đường sắt không có rào chắn",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 491
+    },
+    {
+        "ZDESC": "Để báo trước gần tới đoạn đường thường có gia súc thả rông hoặc lùa qua ngang đường nguy hiểm, đường ở vùng đồng cỏ của nông trường chăn nuôi, vùng thảo nguyên. Người lái xe có trách nhiệm dừng lại bảo đảm cho gia súc có thể qua đường không bị nguy hiểm.",
+        "ZIMAGE": "193_.png",
+        "ZINDEX": 214,
+        "ZNAME": "Gia súc",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 492
+    },
+    {
+        "ZDESC": "Báo trước là gần đến đoạn đường thường có trẻ dem đi ngang qua hoặc tụ tập trên đường như ở vườn trẻ, trường học, câu lạc bộ đi qua.",
+        "ZIMAGE": "188_.png",
+        "ZINDEX": 187,
+        "ZNAME": "Trẻ em",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 493
+    },
+    {
+        "ZDESC": "Để báo trước sắp tới đoạn đường có thể xảy ra trơn trượt đặc biệt là khi thời tiết xấu, mưa phùn cần tránh hãm phanh, tăng ga, sang số đột ngột hoặc xe chạy với tốc độ cao sẽ bị nguy hiểm. Khi gặp biển này tốc độ xe chạy phải giảm kịp thời và thận trọng.",
+        "ZIMAGE": "185_.png",
+        "ZINDEX": 211,
+        "ZNAME": "Đường trơn",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 494
+    },
+    {
+        "ZDESC": "Để báo trước gần tới một đoạn đường có hiện tượng đất đá từ trên ta luy dụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường, đặc biệt là ở những đoạn đường miền núi. Gặp biển này, người lái xe phải chú ý đặc biệt khi thời tiết xấu hạn chế tầm nhìn và khi dừng hay đỗ xe sau những trận mưa lớn.",
+        "ZIMAGE": "191_.png",
+        "ZINDEX": 213,
+        "ZNAME": "Đá lở",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 495
+    },
+    {
+        "ZDESC": "Trên đường không ưu tiên, biển này để báo trước sắp đến nơi giao nhau với đường ưu tiên.",
+        "ZIMAGE": "142_.png",
+        "ZINDEX": 172,
+        "ZNAME": "Giao nhau với đường ưu tiên",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 496
+    },
+    {
+        "ZDESC": "Dùng để nhắc lái xe chú ý đi chậm lại, biển đặt ở nơi thích hợp mà đường sắp sửa đi vào đường hầm chạy hai chiều, mà chiếu sáng lại không tốt.",
+        "ZIMAGE": "214_.png",
+        "ZINDEX": 199,
+        "ZNAME": "Đường hầm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 497
+    },
+    {
+        "ZDESC": "Để báo trước nơi giao nhau có sự điều khiển giao thông bằng tín hiệu đèn (hệ thống 3 đèn bật theo chiều đứng) và trong trường hợp thiết bị tín hiệu đèn không được nhìn thấy rõ ràng và kịp thời.",
+        "ZIMAGE": "145_.png",
+        "ZINDEX": 173,
+        "ZNAME": "Giao nhau có tín hiệu đèn",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 498
+    },
+    {
+        "ZDESC": "Báo trước sắp đến nơi giao nhau của các tuyến đường cùng cấp, (không có đường nào ưu tiên) trên cùng một mặt bằng.",
+        "ZIMAGE": "135_.png",
+        "ZINDEX": 169,
+        "ZNAME": "Đường giao nhau",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 499
+    },
+    {
+        "ZDESC": "Để báo trước gần tới đoạn đường thường có gió ngang thổi mạnh nguy hiểm. Người lái xe cần phải điều chỉnh tốc độ xe chạy cho thích hợp, đề phòng tình huống gió thổi lật xe.",
+        "ZIMAGE": "196_.png",
+        "ZINDEX": 191,
+        "ZNAME": "Gió ngang",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 500
+    },
+    {
+        "ZDESC": "Báo trước sắp đến chỗ giao nhau giữa đường bộ và đường sắt có rào chắn kín hay chắn nửa kín bố trí theo trật tự xen kẽ ở mỗi bên đường sắt và có nhân viên ngành đường sắt điều khiển giao thông.",
+        "ZIMAGE": "146_.png",
+        "ZINDEX": 206,
+        "ZNAME": "Giao nhau với đường sắt có rào chắn",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 501
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến đoạn đường vì lý do sửa chữa hoặc có trở ngại ở một phía đường mà phải giải quyết đi lại của phương tiện phía đường còn lại hoặc để báo trước đoạn đường đôi tạm thời hay thường xuyên các chiều xe đi và về phải đi chung.",
+        "ZIMAGE": "133_.png",
+        "ZINDEX": 209,
+        "ZNAME": "Đường hai chiều",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 502
+    },
+    {
+        "ZDESC": "Biển này nhằm để báo cho các phương tiện đi trên đường biết có \"Đường cao tốc phía trước\".",
+        "ZIMAGE": "211_.png",
+        "ZINDEX": 197,
+        "ZNAME": "Đường cao tốc phía trước",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 503
+    },
+    {
+        "ZDESC": "Báo hiệu đoạn \"đường có sóng mấp mô nhân tạo (humps)\" để hạn chế tốc độ xe chạy (biển được cắm kèm theo biển số 227 \"Hạn chế tốc độ tối đa\"), bắt buộc lái xe phải chạy với tốc độ chậm trước khi qua những điểm cần kiểm soát, kiểm tra...",
+        "ZIMAGE": "169_.png",
+        "ZINDEX": 210,
+        "ZNAME": "Đường không bằng phẳng",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 504
+    },
+    {
+        "ZDESC": "Trên đường một chiều, biển này để báo trước sắp đến chỗ giao nhau với đường hai chiều",
+        "ZIMAGE": "205_.png",
+        "ZINDEX": 193,
+        "ZNAME": "Giao nhau với đường hai chiều",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 505
+    },
+    {
+        "ZDESC": "Để báo trước gần tới đoạn đường thường có thú rừng qua đường như đường đi qua khu vực rừng cây hay khu cấm săn bắn.",
+        "ZIMAGE": "195_.png",
+        "ZINDEX": 190,
+        "ZNAME": "Thú rừng vượt qua đường",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 506
+    },
+    {
+        "ZDESC": "Để báo trước sắp tới những chỗ có kè, vực sâu, hoặc bờ sông áp sát đường ở phía trước, cần đề phòng tình huống nguy hiểm vượt kè, tụt xuống vực sâu (thường có ở những chỗ ngoặt nguy hiểm).",
+        "ZIMAGE": "153_.png",
+        "ZINDEX": 178,
+        "ZNAME": "Kè, vực sâu phía trước",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 507
+    },
+    {
+        "ZDESC": "Biểu thị sắp đi qua đoạn đường có đường sắt cắt qua, nếu ở nơi giao cắt với đường bộ không có người gác mà trên mặt đường có biển báo “gần vạch tín hiệu của đường sắt giao nhau cùng mức” thì phải đặt thêm kí hiệu đường sắt giao cắt với đường bộ không vuông góc ở phía dưới biển báo “giao cắt với đường bộ của đường sắt không có người gác”. Kí hiệu đường sắt giao cắt với đường bộ không vuông góc có ba loại. Loại thứ nhất đặt ở nơi cách nơi giao nhau với đường sắt 50 mét. Loại thứ hai và ba đặt cách",
+        "ZIMAGE": "220_.png",
+        "ZINDEX": 215,
+        "ZNAME": "Đường sắt giao cắt với đường bộ không vuông góc",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 508
+    },
+    {
+        "ZDESC": "Dùng để nhắc lái xe giảm tốc độ đi chậm. Biển đặt ở vị trí thích đáng trước khi đến đoạn đường yêu cầu đi chậm.",
+        "ZIMAGE": "225_.png",
+        "ZINDEX": 204,
+        "ZNAME": "Đi chậm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 509
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến cầu tạm là loại cầu được làm để sử dụng tạm thời cho xe cộ qua lại.",
+        "ZIMAGE": "150_.png",
+        "ZINDEX": 176,
+        "ZNAME": "Cầu tạm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 510
+    },
+    {
+        "ZDESC": "Báo trước sắp tới chỗ dốc nguy hiểm. Người lái các phương tiện phải chọn phương thức chạy xe cho phù hợp để xe xuống dốc một cách thuận lợi, an toàn",
+        "ZIMAGE": "164_.png",
+        "ZINDEX": 183,
+        "ZNAME": "Dốc xuống nguy hiểm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 511
+    },
+    {
+        "ZDESC": "Báo trước sắp đến phần đường ngang dành cho người đi bộ sang qua đường. Gặp biển này các loại xe cộ phải nhường ưu tiên cho người đi bộ và chỉ được chạy xe nếu như không gây nguy hiểm cho người đi bộ.",
+        "ZIMAGE": "187_.png",
+        "ZINDEX": 207,
+        "ZNAME": "Đường người đi bộ cắt ngang",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 512
+    },
+    {
+        "ZDESC": "Báo trước sắp tới chỗ dốc nguy hiểm. Người lái các phương tiện phải chọn phương thức chạy xe cho phù hợp để xe lên dốc một cách thuận lợi, an toàn.",
+        "ZIMAGE": "166_.png",
+        "ZINDEX": 184,
+        "ZNAME": "Dốc lên nguy hiểm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 513
+    },
+    {
+        "ZDESC": "Báo trước sắp đến một đoạn đường bị hẹp đột ngột về phía trái.",
+        "ZIMAGE": "131_.png",
+        "ZINDEX": 167,
+        "ZNAME": "Đường bị hẹp về phía trái",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 514
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến cầu xoay, cầu cất là những loại cầu trong từng thời gian có cắt giao thông đường bộ để cho tàu thuyền qua lại. Các phương tiện đi trên đường bộ phải chờ đợi.",
+        "ZIMAGE": "152_.png",
+        "ZINDEX": 177,
+        "ZNAME": "Cầu xoay-cầu cất",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 515
+    },
+    {
+        "ZDESC": "Báo trước là gần đến chỗ thường có người đi xe đạp từ những đường nhỏ cắt ngang qua hoặc từ đường dành cho xe đạp đo nhập vào đường ô tô.",
+        "ZIMAGE": "189_.png",
+        "ZINDEX": 188,
+        "ZNAME": "Đường người đi xe đạp cắt ngang",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 516
+    },
+    {
+        "ZDESC": "Để báo trước sắp kết thúc đoạn đường đôi (đoạn đường hết giải phân cách). Đường đôi chỉ được chia bằng vạch sơn không phải đặt biển này.",
+        "ZIMAGE": "208_.png",
+        "ZINDEX": 195,
+        "ZNAME": "Hết đường đôi",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 517
+    },
+    {
+        "ZDESC": "Để báo trước gần tới đoạn đường ở vùng sát đường băng sân bay và cắt ngang qua hướng máy bay lên xuống ở độ cao không lớn.",
+        "ZIMAGE": "192_.png",
+        "ZINDEX": 189,
+        "ZNAME": "Giải máy bay lên xuống",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 518
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến bến phà. Người sử dụng đường phải tuân theo nội quy bến phà.",
+        "ZIMAGE": "158_.png",
+        "ZINDEX": 181,
+        "ZNAME": "Bến phà",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 519
+    },
+    {
+        "ZDESC": "Để báo trước sắp tới đoạn đường có mặt đường không bằng phẳng, lồi lõm, sống trâu v.v... xe chạy với tốc độ cao sẽ bị nguy hiểm.",
+        "ZIMAGE": "167_.png",
+        "ZINDEX": 185,
+        "ZNAME": "Đường không bằng phẳng",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 520
+    },
+    {
+        "ZDESC": "Báo trước sắp đến một chỗ ngoặt nguy hiểm vòng bên trái.",
+        "ZIMAGE": "123_.png",
+        "ZINDEX": 164,
+        "ZNAME": "Chỗ ngoặt nguy hiểm vòng bên trái",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 521
+    },
+    {
+        "ZDESC": "Biển báo nguy hiểm đường đi sát vách núi. Dùng để báo nguy hiểm cho lái xe lái cẩn thận.",
+        "ZIMAGE": "186_.png",
+        "ZINDEX": 186,
+        "ZNAME": "Vách núi nguy hiểm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 522
+    },
+    {
+        "ZDESC": "Tại chỗ giao nhau đường sắt có từ hai đường cắt ngang đường bộ.",
+        "ZIMAGE": "222_.png",
+        "ZINDEX": 202,
+        "ZNAME": "Chỗ đường sắt cắt đường bộ",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 523
+    },
+    {
+        "ZDESC": "Báo trước sắp đến một đoạn đường bị hẹp đột ngột cả hai bên.",
+        "ZIMAGE": "130_.png",
+        "ZINDEX": 166,
+        "ZNAME": "Đường bị hẹp cả hai bên",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 524
+    },
+    {
+        "ZDESC": "Dùng để nhắc lái xe lái cẩn thận. Biển được đặt ở nơi đường sắp đi qua khu dân cư, thị tứ mà lái xe lại không có đủ tầm nhìn, hoặc bị hạn chế tầm nhìn.",
+        "ZIMAGE": "216_.png",
+        "ZINDEX": 200,
+        "ZNAME": "Thôn bản",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 525
+    },
+    {
+        "ZDESC": "Để báo trước những chỗ có đường ngầm (đường tràn). Đường ngầm là những đoạn đường vượt qua sông, suối, khe cạn mà nước có thể chảy tràn qua thường xuyên hoặc khi có lũ.",
+        "ZIMAGE": "156_.png",
+        "ZINDEX": 180,
+        "ZNAME": "Đường ngầm",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 526
+    },
+    {
+        "ZDESC": "Để báo trước gần tới đoạn đường đang tiến hành sửa chữa có người và máy móc đang làm việc trên mặt đường. Khi gặp biển báo này tốc độ xe chạy phải giảm cho thích hợp, không gây nguy hiểm cho người và máy móc trên đoạn đường đó.",
+        "ZIMAGE": "190_.png",
+        "ZINDEX": 212,
+        "ZNAME": "Công trường",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 527
+    },
+    {
+        "ZDESC": "Báo trước nơi giao nhau có bố trí đảo an toàn ở giữa điểm giao, các loại xe qua điểm giao vòng trái, phải đi vòng xuyến qua đảo an toàn.",
+        "ZIMAGE": "136_.png",
+        "ZINDEX": 170,
+        "ZNAME": "Giao nhau chạy theo vòng xuyến",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 528
+    },
+    {
+        "ZDESC": "Tại chỗ giao nhau đường sắt có từ hai đường cắt ngang đường bộ.",
+        "ZIMAGE": "218_.png",
+        "ZINDEX": 201,
+        "ZNAME": "Chỗ đường sắt cắt đường bộ",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 529
+    },
+    {
+        "ZDESC": "Để báo trước sắp tới những chỗ có kè, vực sâu, hoặc bờ sông áp sát đường ở phía trước, cần đề phòng tình huống nguy hiểm vượt kè, tụt xuống vực sâu (thường có ở những chỗ ngoặt nguy hiểm).",
+        "ZIMAGE": "155_.png",
+        "ZINDEX": 179,
+        "ZNAME": "Kè, vực sâu phía trước",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 530
+    },
+    {
+        "ZDESC": "Dùng để báo trước cho lái xe biết phía trước có chướng ngại vật, xe cần giảm tốc độ theo chỉ dẫn trên biển báo. Biển này đặt ở vị trí thích hợp trước khi đến đoạn đường có chướng ngại vật.",
+        "ZIMAGE": "227_.png",
+        "ZINDEX": 205,
+        "ZNAME": "Chú ý chướng ngại vật",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 531
+    },
+    {
+        "ZDESC": "Dùng để nhắc nhở lái xe cho cẩn thận. Biển đặt ở nơi thích hợp trên đoạn đường sắp sửa đến chiếc cầu có độ vồng rất lớn ảnh hưởng tới tầm nhìn.",
+        "ZIMAGE": "209_.png",
+        "ZINDEX": 196,
+        "ZNAME": "Cầu vòng",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 532
+    },
+    {
+        "ZDESC": "Dùng để báo nguy hiểm lái xe chú ý đoạn đường phía trước thường xảy ra tai nạn để lái xe cần đặc biệt chú ý. Biển được đặt ở vị trí thích hợp nơi sắp vào đoạn đường thường xảy ra tai nạn.",
+        "ZIMAGE": "223_.png",
+        "ZINDEX": 203,
+        "ZNAME": "Đoạn đường hay xảy ra tai nạn",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 533
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến những đường có cổng, kiểu cổng tò vò chắn ngang như cổng đường hầm, cổng thành, cầu vượt đường bộ dạng cầu vòm v.v...",
+        "ZIMAGE": "163_.png",
+        "ZINDEX": 182,
+        "ZNAME": "Cửa chui",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 534
+    },
+    {
+        "ZDESC": "Biển này để cảnh báo nơi có đường dây điện cắt ngang phía trên tuyến đường, thường kèm theo biển phụ 509 \"Chiều cao an toàn\" ở phía dưới.",
+        "ZIMAGE": "213_.png",
+        "ZINDEX": 198,
+        "ZNAME": "Đường cáp điện ở phía trên",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 535
+    },
+    {
+        "ZDESC": "Trên đường ưu tiên, để báo trước sắp đến nơi giao nhau với đường không ưu tiên.",
+        "ZIMAGE": "140_.png",
+        "ZINDEX": 171,
+        "ZNAME": "Giao nhau với đường không ưu tiên",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 536
+    },
+    {
+        "ZDESC": "Dùng để báo nguy hiểm cho người lái xe giảm tốc độ, biển được đặt ở ngoài vị trí tiếp đầu (hay tiếp cuối) của đường ngoặt liên tục có tốc độ xe chạy cho phép (thiết kế) nhỏ hơn 60km/h, đoạn có ba hoặc trên ba đoạn cong ngược chiều nhau có bán kính đường cong nằm nhỏ hơn giá trị tối thiểu quy định của cấp đường, còn đoạn thẳng chêm giữa các đoạn cong thì bằng hoặc nhỏ hơn chiều dài có giá trị bé nhất của đường cong chuyển tiếp hay đoạn vuốt nối siêu cao.",
+        "ZIMAGE": "128_.png",
+        "ZINDEX": 208,
+        "ZNAME": "Nhiều chỗ ngoặt nguy hiểm liên tiếp",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 537
+    },
+    {
+        "ZDESC": "Để báo trước sắp đến đoạn đường đôi (chiều đi và chiều về phân biệt rõ ràng bằng giải phân cách cứng).",
+        "ZIMAGE": "207_.png",
+        "ZINDEX": 194,
+        "ZNAME": "Đường đôi",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 538
+    },
+    {
+        "ZDESC": "Báo trước sắp đến một đoạn đường bị hẹp đột ngột về phía phải.",
+        "ZIMAGE": "132_.png",
+        "ZINDEX": 168,
+        "ZNAME": "Đường bị hẹp về phía phải",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 539
+    },
+    {
+        "ZDESC": "Báo trước sắp đến cầu hẹp là loại cầu có chiều rộng lòng cầu (phần xe chạy) nhỏ hơn hoặc bằng 4.50 m (1 làn đường). Khi qua các cầu này các xe phải nhường nhau và chờ ở hai đầu cầu.",
+        "ZIMAGE": "149_.png",
+        "ZINDEX": 175,
+        "ZNAME": "Cầu hẹp",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 540
+    },
+    {
+        "ZDESC": "Để báo trên đường có những nguy hiểm khác.",
+        "ZIMAGE": "203_.png",
+        "ZINDEX": 192,
+        "ZNAME": "Nguy hiểm khác",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 541
+    },
+    {
+        "ZDESC": "Báo trước sắp đến một chỗ ngoặt nguy hiểm vòng bên phải.",
+        "ZIMAGE": "126_.png",
+        "ZINDEX": 165,
+        "ZNAME": "Chỗ ngoặt nguy hiểm vòng bên phải",
+        "ZSIGNCATEGORY": 14,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 542
+    },
+    {
+        "ZDESC": "Biển dùng để chỉ dẫn cho một làn xe cụ thể, chỉ nơi đến, tên đường hay số hiệu tuyến đường và hướng đến. Trên biển này có sử dụng thêm mũi tên thẳng đứng hướng xuống dưới hoặc xiên để chỉ làn có hiệu lực đến một đích nào đó. Biển được bố trí ngay phía trên làn xe.",
+        "ZIMAGE": "357_.png",
+        "ZINDEX": 277,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 543
+    },
+    {
+        "ZDESC": "Biển chỉ ra khoảng cách tới nút giao phía trước, cách 4km trước nút giao.",
+        "ZIMAGE": "300_.png",
+        "ZINDEX": 229,
+        "ZNAME": "Biển chỉ dẫn nút giao phía trước.",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 544
+    },
+    {
+        "ZDESC": "Biển đặt cách lối ra 300m",
+        "ZIMAGE": "333_.png",
+        "ZINDEX": 248,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 545
+    },
+    {
+        "ZDESC": "Khoảng cách đến các điểm dịch vụ được báo trước trong biển chỉ dẫn dịch vụ chung với cự ly 2km.(Các dịch vụ bao gồm: \n- Ăn uống\n- Điện thoại\n- Xăng dầu\n- Nghị trọ\n- Bệnh viện\n- Trạm sửa chữa\n- Chỗ đổ rác\n- Dịch vụ cho những người tàn tật\n- Thông tin du lịch\n- Nơi thu nhận chất thải vệ sinh\n- Cấp cứu\n- Trạm cảnh sát\n- Bãi đổ xe tải)",
+        "ZIMAGE": "304_.png",
+        "ZINDEX": 269,
+        "ZNAME": "Biển chỉ dẫn dịch vụ chung",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 546
+    },
+    {
+        "ZDESC": "Để báo hiệu phía trước có lối ra và số hiệu lối ra phải cắm biển 463a, biển đặt trước lối ra ít nhất là 2,5km.",
+        "ZIMAGE": "326_.png",
+        "ZINDEX": 231,
+        "ZNAME": "Biển báo phía trước có lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 547
+    },
+    {
+        "ZDESC": "Chỉ hướng đến trạm cân.",
+        "ZIMAGE": "353_.png",
+        "ZINDEX": 262,
+        "ZNAME": "Biển chỉ dẫn trạm cân",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 548
+    },
+    {
+        "ZDESC": "Để thông báo lối ra và số hiệu lối ra phía trước phải cắm biển số 463d (cách lối ra 500m).",
+        "ZIMAGE": "329_.png",
+        "ZINDEX": 234,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 549
+    },
+    {
+        "ZDESC": "Biển này chỉ được sử dụng khi có yêu cầu (định hướng cho người sử dụng đường, chỉ dẫn các điểm hoạt động phục vụ lợi ích công cộng)",
+        "ZIMAGE": "317_.png",
+        "ZINDEX": 252,
+        "ZNAME": "Biển chỉ dẫn dịch vụ công cộng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 550
+    },
+    {
+        "ZDESC": "Để báo cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn hướng đi theo hướng phải",
+        "ZIMAGE": "342_.png",
+        "ZINDEX": 260,
+        "ZNAME": "Biển báo hiệu chướng ngại vật phía trước",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 551
+    },
+    {
+        "ZDESC": "Kết thúc đường cao tốc.",
+        "ZIMAGE": "299_.png",
+        "ZINDEX": 225,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 552
+    },
+    {
+        "ZDESC": "Khu vực đỗ xe ngay phía trước.",
+        "ZIMAGE": "308_.png",
+        "ZINDEX": 238,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 553
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "316_.png",
+        "ZINDEX": 250,
+        "ZNAME": "Biển chỉ dẫn lý trình kilômét",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 554
+    },
+    {
+        "ZDESC": "Biển được sử dụng ở những khu vực thời tiết hay thay đổi ảnh hưởng tới sự đi lại của các phương tiện, hoặc điều kiện đi lại đặc biệt.\n \nBiển thể hiện tần số sóng radiô phát về thông tin thời tiết và điều kiện đi lại. Không thể hiện quá 3 tần số đối với mỗi băng tần trên một biển.",
+        "ZIMAGE": "351_.png",
+        "ZINDEX": 274,
+        "ZNAME": "Biển chỉ dẫn thông tin trên sóng ra-di-ô",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 555
+    },
+    {
+        "ZDESC": "Trạm nghỉ ngơi cách biển chỉ dẫn 1km.",
+        "ZIMAGE": "309_.png",
+        "ZINDEX": 239,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 556
+    },
+    {
+        "ZDESC": "Biển dùng để chỉ dẫn cho một làn xe cụ thể, chỉ nơi đến, tên đường hay số hiệu tuyến đường và hướng đến. Trên biển này có sử dụng thêm mũi tên thẳng đứng hướng xuống dưới hoặc xiên để chỉ làn có hiệu lực đến một đích nào đó. Biển được bố trí ngay phía trên làn xe.",
+        "ZIMAGE": "356_.png",
+        "ZINDEX": 276,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 557
+    },
+    {
+        "ZDESC": "Để nhắc nhở người lái xe chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kinh cong nhỏ. Biển được đặt ở phía lưng đường cong, cách mép lề đường 1,8m hoặc đặt trên dải phân cách giữa đối với chiều ngược lại.",
+        "ZIMAGE": "343_.png",
+        "ZINDEX": 271,
+        "ZNAME": "Biển báo hiệu hướng rẽ",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 558
+    },
+    {
+        "ZDESC": "Biển chỉ ra khoảng cách tới nút giao phía trước, cách 2km trước nút giao.",
+        "ZIMAGE": "301_.png",
+        "ZINDEX": 228,
+        "ZNAME": "Biển chỉ dẫn nút giao phía trước.",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 559
+    },
+    {
+        "ZDESC": "Khu vực thăm quan du lịch, di tích lịch sử văn hóa cách biển chỉ dẫn 2km.",
+        "ZIMAGE": "311_.png",
+        "ZINDEX": 241,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 560
+    },
+    {
+        "ZDESC": "Biển dùng để chỉ dẫn cho một làn xe cụ thể, chỉ nơi đến, tên đường hay số hiệu tuyến đường và hướng đến. Trên biển này có sử dụng thêm mũi tên thẳng đứng hướng xuống dưới hoặc xiên để chỉ làn có hiệu lực đến một đích nào đó. Biển được bố trí ngay phía trên làn xe.",
+        "ZIMAGE": "355_.png",
+        "ZINDEX": 275,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 561
+    },
+    {
+        "ZDESC": "Để báo trước khi qua khu vực phía trước có nhiều nút giao. Biển được lắp đặt ở phía trước nút giao đầu tiên để chỉ số lượng lối ra tiếp theo.",
+        "ZIMAGE": "303_.png",
+        "ZINDEX": 230,
+        "ZNAME": "Biển chỉ dẫn số lượng lối ra tiếp theo",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 562
+    },
+    {
+        "ZDESC": "Biển được sử dụng khi chỉ dẫn địa điểm và hướng đến 2 hoặc 3 nơi. Biển thường bố trí ở bên đường, cách mép lề đường 1,8m.",
+        "ZIMAGE": "361_.png",
+        "ZINDEX": 265,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 563
+    },
+    {
+        "ZDESC": "Biển 2 hoặc 3 dòng mang tên của đích đến và khoảng cách tới đích đó. Khoảng cách tính bằng kilomet. Dòng thứ nhất xác định vị trí nút giao sắp đến và địa danh. Dòng thứ 2 (nếu có) xác định khoảng cách đến khi du lịch giải trí hoặc đầu mối giao thông lớn. Dòng thứ 3 (hoặc dòng cuối cùng)chỉ khoảng cách đến thành phố lớn(cấp cao nhất) mà tuyến đường đi qua",
+        "ZIMAGE": "323_.png",
+        "ZINDEX": 267,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 564
+    },
+    {
+        "ZDESC": "Sẽ được sử dụng trên tất cả các biển báo hiệu trước lối rẽ tại các nút giao. Đối với lối rẽ phía bên trái, trong biển báo hiệu trước lối rẽ, đối với biển chỉ dẫn kiểu sơ đồ thông báo “Lối ra một chiều”",
+        "ZIMAGE": "324_.png",
+        "ZINDEX": 268,
+        "ZNAME": "Biển báo hiệu lối ra một chiều",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 565
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "315_.png",
+        "ZINDEX": 247,
+        "ZNAME": "Biển chỉ dẫn lý trình kilômét",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 566
+    },
+    {
+        "ZDESC": "Biển mô tả sơ đồ lối vào đường cao tốc. Biển đặt cách lối vào tối thiểu bằng tần nhìn một chiều của cấp đường xe đang chạy.",
+        "ZIMAGE": "291_.png",
+        "ZINDEX": 216,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 567
+    },
+    {
+        "ZDESC": "Khu vực đỗ xe cách biển chỉ dẫn 1km.",
+        "ZIMAGE": "307_.png",
+        "ZINDEX": 237,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 568
+    },
+    {
+        "ZDESC": "Biển đặt cách lối ra 100m",
+        "ZIMAGE": "335_.png",
+        "ZINDEX": 251,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 569
+    },
+    {
+        "ZDESC": "Để thông báo lối ra và số hiệu lối ra phía trước phải cắm biển số 463b (cách lối ra 2km),",
+        "ZIMAGE": "327_.png",
+        "ZINDEX": 232,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 570
+    },
+    {
+        "ZDESC": "Khoảng cách đến các điểm dịch vụ ngay trước lối vào khu vực dịch vụ chung .",
+        "ZIMAGE": "306_.png",
+        "ZINDEX": 235,
+        "ZNAME": "Biển chỉ dẫn dịch vụ chung",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 571
+    },
+    {
+        "ZDESC": "Dùng để báo trước khoảng cách sắp vào đường cao tốc, còn cách cửa vào đường cao tốc 500m.",
+        "ZIMAGE": "293_.png",
+        "ZINDEX": 219,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 572
+    },
+    {
+        "ZDESC": "Chỉ khoảng cách đến hết điểm kết thúc đường cao tốc, có chữ viết, viền màu đen trên nền màu vàng.",
+        "ZIMAGE": "298_.png",
+        "ZINDEX": 224,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 573
+    },
+    {
+        "ZDESC": "Để nhắc nhở người lái xe chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kinh cong nhỏ . Biển được đặt ở phía lưng đường cong, cách mép lề đường 1,8m hoặc đặt trên dải phân cách giữa đối với chiều ngược lại.",
+        "ZIMAGE": "344_.png",
+        "ZINDEX": 272,
+        "ZNAME": "Biển báo hiệu hướng rẽ",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 574
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "314_.png",
+        "ZINDEX": 246,
+        "ZNAME": "Biển chỉ dẫn lý trình kilômét",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 575
+    },
+    {
+        "ZDESC": "Nếu lối ra có 2 cửa thì phải đặt biển số 463 (f, g) bao gồm các nội dung: hướng đến và số hiệu lối ra.",
+        "ZIMAGE": "331_.png",
+        "ZINDEX": 244,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 576
+    },
+    {
+        "ZDESC": "Biển chỉ khoảng cách đến điểm kết thúc đường cao tốc.",
+        "ZIMAGE": "297_.png",
+        "ZINDEX": 223,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 577
+    },
+    {
+        "ZDESC": "biển đặt cách lối ra 200m",
+        "ZIMAGE": "334_.png",
+        "ZINDEX": 249,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 578
+    },
+    {
+        "ZDESC": "Nếu lối ra có 2 cửa thì phải đặt biển số 463 (f, g) bao gồm các nội dung: hướng đến và số hiệu lối ra.",
+        "ZIMAGE": "332_.png",
+        "ZINDEX": 245,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 579
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "322_.png",
+        "ZINDEX": 217,
+        "ZNAME": "Các dịch vụ tiếp theo",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 580
+    },
+    {
+        "ZDESC": "Khu vực thăm quan du lịch, di tích lịch sử văn hóa ngay phía trước.",
+        "ZIMAGE": "313_.png",
+        "ZINDEX": 243,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 581
+    },
+    {
+        "ZDESC": "Biển chỉ dẫn kiểu sơ đồ biểu thị sơ đồ bố trí lối ra khỏi đường chính trong mối quan hệ với đường chính.",
+        "ZIMAGE": "339_.png",
+        "ZINDEX": 257,
+        "ZNAME": "Biển chỉ dẫn kiểu sơ đồ",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 582
+    },
+    {
+        "ZDESC": "Để báo cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn đi theo hướng trái",
+        "ZIMAGE": "340_.png",
+        "ZINDEX": 258,
+        "ZNAME": "Biển báo hiệu chướng ngại vật phía trước",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 583
+    },
+    {
+        "ZDESC": "Biển này chỉ được sử dụng khi có yêu cầu (định hướng cho người sử dụng đường, chỉ dẫn các điểm hoạt động phục vụ lợi ích công cộng)",
+        "ZIMAGE": "318_.png",
+        "ZINDEX": 253,
+        "ZNAME": "Biển chỉ dẫn dịch vụ công cộng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 584
+    },
+    {
+        "ZDESC": "Biển đặt ở góc giữa đường chính và đường rẽ.(đặt ở góc lối rẽ)",
+        "ZIMAGE": "330_.png",
+        "ZINDEX": 236,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 585
+    },
+    {
+        "ZDESC": "Biển được sử dụng khi chỉ dẫn địa điểm và hướng đến 2 hoặc 3 nơi. Biển thường bố trí ở bên đường, cách mép lề đường 1,8m.",
+        "ZIMAGE": "360_.png",
+        "ZINDEX": 264,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 586
+    },
+    {
+        "ZDESC": "Chỉ hướng đến và chỉ số hiệu lối ra dùng biển số 463n.",
+        "ZIMAGE": "338_.png",
+        "ZINDEX": 256,
+        "ZNAME": "Biển chỉ lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 587
+    },
+    {
+        "ZDESC": "Chỉ dùng để chỉ lối ra",
+        "ZIMAGE": "336_.png",
+        "ZINDEX": 266,
+        "ZNAME": "Biển chỉ lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 588
+    },
+    {
+        "ZDESC": "Biển được sử dụng ở những khu vực thời tiết hay thay đổi ảnh hưởng tới sự đi lại của các phương tiện, hoặc điều kiện đi lại đặc biệt.\n \nBiển thể hiện tần số sóng radiô phát về thông tin thời tiết và điều kiện đi lại. Không thể hiện quá 3 tần số đối với mỗi băng tần trên một biển.",
+        "ZIMAGE": "350_.png",
+        "ZINDEX": 273,
+        "ZNAME": "Biển chỉ dẫn thông tin trên sóng ra-di-ô",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 589
+    },
+    {
+        "ZDESC": "Để báo cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn  đi được cả 2 hướng",
+        "ZIMAGE": "341_.png",
+        "ZINDEX": 259,
+        "ZNAME": "Biển báo hiệu chướng ngại vật phía trước",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 590
+    },
+    {
+        "ZDESC": "Biển này đặt ở vị trí bắt đầu vào làn đường cao tốc.",
+        "ZIMAGE": "295_.png",
+        "ZINDEX": 221,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 591
+    },
+    {
+        "ZDESC": "Khu vực thăm quan du lịch, di tích lịch sử văn hóa cách biển chỉ dẫn 1km.",
+        "ZIMAGE": "312_.png",
+        "ZINDEX": 242,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 592
+    },
+    {
+        "ZDESC": "Biển dùng để chỉ dẫn cho một làn xe cụ thể, chỉ nơi đến, tên đường hay số hiệu tuyến đường và hướng đến. Trên biển này có sử dụng thêm mũi tên thẳng đứng hướng xuống dưới hoặc xiên để chỉ làn có hiệu lực đến một đích nào đó. Biển được bố trí ngay phía trên làn xe.",
+        "ZIMAGE": "358_.png",
+        "ZINDEX": 278,
+        "ZNAME": "Biển chỉ dẫn địa điểm và phương hướng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 593
+    },
+    {
+        "ZDESC": "Chỉ khoảng cách đến trạm cân.",
+        "ZIMAGE": "352_.png",
+        "ZINDEX": 261,
+        "ZNAME": "Biển chỉ dẫn trạm cân",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 594
+    },
+    {
+        "ZDESC": "Để thông báo lối ra và số hiệu lối ra phía trước phải cắm biển số 463c (cách lối ra 1km)",
+        "ZIMAGE": "328_.png",
+        "ZINDEX": 233,
+        "ZNAME": "Biển chỉ dẫn số hiệu lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 595
+    },
+    {
+        "ZDESC": "Khoảng cách đến các điểm dịch vụ được báo trước trong biển chỉ dẫn dịch vụ chung với cự ly 1km.(Các dịch vụ bao gồm: \n- Ăn uống\n- Điện thoại\n- Xăng dầu\n- Nghị trọ\n- Bệnh viện\n- Trạm sửa chữa\n- Chỗ đổ rác\n- Dịch vụ cho những người tàn tật\n- Thông tin du lịch\n- Nơi thu nhận chất thải vệ sinh\n- Cấp cứu\n- Trạm cảnh sát\n- Bãi đổ xe tải)",
+        "ZIMAGE": "305_.png",
+        "ZINDEX": 270,
+        "ZNAME": "Biển chỉ dẫn dịch vụ chung",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 596
+    },
+    {
+        "ZDESC": "Biển này chỉ được sử dụng khi có yêu cầu (định hướng cho người sử dụng đường, chỉ dẫn các điểm hoạt động phục vụ lợi ích công cộng)",
+        "ZIMAGE": "319_.png",
+        "ZINDEX": 254,
+        "ZNAME": "Biển chỉ dẫn dịch vụ công cộng",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 597
+    },
+    {
+        "ZDESC": "Biển chỉ ra khoảng cách tới nút giao phía trước, cách 1km trước nút giao.",
+        "ZIMAGE": "302_.png",
+        "ZINDEX": 227,
+        "ZNAME": "Biển chỉ dẫn nút giao phía trước.",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 598
+    },
+    {
+        "ZDESC": "Dùng để chỉ lối ra kết hợp chỉ hướng đến",
+        "ZIMAGE": "337_.png",
+        "ZINDEX": 255,
+        "ZNAME": "Biển chỉ lối ra",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 599
+    },
+    {
+        "ZDESC": "Chỉ lối vào trạm cân. Biển đặt ở góc ngã ba giữa đường cao tốc và đường vào trạm cân.",
+        "ZIMAGE": "354_.png",
+        "ZINDEX": 263,
+        "ZNAME": "Biển chỉ dẫn trạm cân",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 600
+    },
+    {
+        "ZDESC": "Dùng để báo trước khoảng cách sắp vào đường cao tốc, còn cách cửa vào đường cao tốc 200m.",
+        "ZIMAGE": "294_.png",
+        "ZINDEX": 220,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 601
+    },
+    {
+        "ZDESC": "Sẽ được sử dụng mà không có mũi hướng xuống dưới (xem biển số 464). Biển có chữ viết và hình mũi tên (nếu  có) màu đen trên nền màu vàng.",
+        "ZIMAGE": "325_.png",
+        "ZINDEX": 226,
+        "ZNAME": "Biển báo hiệu lối ra một chiều”",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 602
+    },
+    {
+        "ZDESC": "Bắt đầu đường cao tốc.",
+        "ZIMAGE": "296_.png",
+        "ZINDEX": 222,
+        "ZNAME": "Biển chỉ dẫn sơ đồ lối vào và khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 603
+    },
+    {
+        "ZDESC": "Dùng để báo trước khoảng cách sắp vào đường cao tốc, còn cách cửa vào đường cao tốc 1km.",
+        "ZIMAGE": "292_.png",
+        "ZINDEX": 218,
+        "ZNAME": "Biển chỉ dẫn khoảng cách đến đường cao tốc",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 604
+    },
+    {
+        "ZDESC": "Trạm nghỉ ngơi ngay phía trước.",
+        "ZIMAGE": "310_.png",
+        "ZINDEX": 240,
+        "ZNAME": "Biển chỉ dẫn khu vực nghỉ ngơi, thăm quan du lịch",
+        "ZSIGNCATEGORY": 15,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 605
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "268_.png",
+        "ZINDEX": 317,
+        "ZNAME": "Đường nhập làn xe",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 606
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "266_.png",
+        "ZINDEX": 315,
+        "ZNAME": "Hướng làn xe thay đổi",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 607
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "232_.png",
+        "ZINDEX": 289,
+        "ZNAME": "Chỗ ngoặt nguy hiểm liên tiếp bên phải",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 608
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "252_.png",
+        "ZINDEX": 304,
+        "ZNAME": "Báo hiệu hết hầm chui",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 609
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "270_.png",
+        "ZINDEX": 311,
+        "ZNAME": "Hướng cách nhà nghỉ 500m",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 610
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "280_.png",
+        "ZINDEX": 309,
+        "ZNAME": "Nơi nghỉ mát",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 611
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "255_.png",
+        "ZINDEX": 319,
+        "ZNAME": "Đường cứu nạn",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 612
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "272_.png",
+        "ZINDEX": 327,
+        "ZNAME": "Chỉ hướng điểm đỗ xe và tầu điện ngầm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 613
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "271_.png",
+        "ZINDEX": 310,
+        "ZNAME": "Hướng cách nhà nghỉ 500m",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 614
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những nơi có đặt trạm cảnh sát giao thông. Những người sử dụng đường phải tuân theo những luật lệ nhà nước quy định khi đi qua nơi này.",
+        "ZIMAGE": "249_.png",
+        "ZINDEX": 323,
+        "ZNAME": "Trạm cảnh sát giao thông",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 615
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "277_.png",
+        "ZINDEX": 306,
+        "ZNAME": "Có cắm trại",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 616
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "261_.png",
+        "ZINDEX": 313,
+        "ZNAME": "Biển báo khoảng cách",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 617
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "247_.png",
+        "ZINDEX": 302,
+        "ZNAME": "Khu vực hạn chế tốc độ xe",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 618
+    },
+    {
+        "ZDESC": "Để báo sắp đến khu vực có họp chợ, xe cộ qua lại khu vực này phải chú ý làm chủ tốc độ.",
+        "ZIMAGE": "281_.png",
+        "ZINDEX": 326,
+        "ZNAME": "Chợ",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 619
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "231_.png",
+        "ZINDEX": 288,
+        "ZNAME": "Chỗ ngoặt nguy hiểm liên tiếp bên trái",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 620
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "269_.png",
+        "ZINDEX": 318,
+        "ZNAME": "Đường cụt",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 621
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "246_.png",
+        "ZINDEX": 301,
+        "ZNAME": "Khu vực hết dừng xe",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 622
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ xe điện dùng cho hành khách lên xuống",
+        "ZIMAGE": "250_.png",
+        "ZINDEX": 324,
+        "ZNAME": "Bến xe điện",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 623
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "245_.png",
+        "ZINDEX": 285,
+        "ZNAME": "Khu vực dừng xe",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 624
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "248_.png",
+        "ZINDEX": 282,
+        "ZNAME": "Hết khu vực hạn chế tốc độ",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 625
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "244_.png",
+        "ZINDEX": 284,
+        "ZNAME": "Hết khu vực cấm theo giờ",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 626
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "274_.png",
+        "ZINDEX": 295,
+        "ZNAME": "Đường ưu tiên",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 627
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "254_.png",
+        "ZINDEX": 297,
+        "ZNAME": "Cấm các xe chở hàng nguy hiểm có dán báo hiệu đặc biệt",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 628
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "239_.png",
+        "ZINDEX": 299,
+        "ZNAME": "Hướng đi thẳng bắt buộc cho các xe chở hàng nguy hiểm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 629
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "230_.png",
+        "ZINDEX": 287,
+        "ZNAME": "Chỗ ngoặt bên phải",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 630
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "233_.png",
+        "ZINDEX": 290,
+        "ZNAME": "Lề đường nguy hiểm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 631
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "275_.png",
+        "ZINDEX": 296,
+        "ZNAME": "Hết đường ưu tiên",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 632
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "238_.png",
+        "ZINDEX": 298,
+        "ZNAME": "Hướng đi bên trái bắt buộc cho các xe chở hàng nguy hiểm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 633
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "251_.png",
+        "ZINDEX": 303,
+        "ZNAME": "Báo hiệu có hầm chui",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 634
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "229_.png",
+        "ZINDEX": 286,
+        "ZNAME": "Chỗ ngoặt bên trái",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 635
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "253_.png",
+        "ZINDEX": 305,
+        "ZNAME": "Báo hiệu có người đi bộ",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 636
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "264_.png",
+        "ZINDEX": 281,
+        "ZNAME": "Chỉ dẫn địa giới",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 637
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "260_.png",
+        "ZINDEX": 279,
+        "ZNAME": "Biển báo phụ có xe điện bánh lốp, bánh sắt",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 638
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "242_.png",
+        "ZINDEX": 283,
+        "ZNAME": "Khu vực cấm theo giờ",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 639
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "235_.png",
+        "ZINDEX": 293,
+        "ZNAME": "Tắc nghẽn giao thông",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 640
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "258_.png",
+        "ZINDEX": 322,
+        "ZNAME": "Biển phụ 503c điều chỉnh \"hướng cấm\" hoặc \"hạn chế đỗ xe\"",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 641
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "265_.png",
+        "ZINDEX": 314,
+        "ZNAME": "Hướng làn xe thay đổi",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 642
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "276_.png",
+        "ZINDEX": 308,
+        "ZNAME": "Nơi nghỉ mát",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 643
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "259_.png",
+        "ZINDEX": 320,
+        "ZNAME": "Biển phụ 503a điều chỉnh \"hướng cấm\" hoặc \"hạn chế đỗ xe\"",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 644
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "237_.png",
+        "ZINDEX": 292,
+        "ZNAME": "Đi chậm số 245",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 645
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "257_.png",
+        "ZINDEX": 321,
+        "ZNAME": "Biển phụ 503b điều chỉnh \"hướng cấm\" hoặc \"hạn chế đỗ xe\"",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 646
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "267_.png",
+        "ZINDEX": 316,
+        "ZNAME": "Hướng làn xe thay đổi",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 647
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "273_.png",
+        "ZINDEX": 312,
+        "ZNAME": "Chỉ điểm đỗ xe và tầu điện ngầm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 648
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "240_.png",
+        "ZINDEX": 300,
+        "ZNAME": "Hướng đi bên phải bắt buộc cho các xe chở hàng nguy hiểm",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 649
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "279_.png",
+        "ZINDEX": 307,
+        "ZNAME": "Nhà nghỉ lưu động",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 650
+    },
+    {
+        "ZDESC": "Để chỉ dẫn những chỗ xe buýt dùng cho hành khách lên xuống",
+        "ZIMAGE": "278_.png",
+        "ZINDEX": 325,
+        "ZNAME": "Bến xe buýt",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 651
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "256_.png",
+        "ZINDEX": 280,
+        "ZNAME": "Chỉ dẫn địa giới",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 652
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "234_.png",
+        "ZINDEX": 291,
+        "ZNAME": "Sỏi đá bắn lên",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 653
+    },
+    {
+        "ZDESC": " ",
+        "ZIMAGE": "236_.png",
+        "ZINDEX": 294,
+        "ZNAME": "Nơi giao nhau với đường tàu điện",
+        "ZSIGNCATEGORY": 16,
+        "Z_ENT": 9,
+        "Z_OPT": 1,
+        "Z_PK": 654
+    }
+]

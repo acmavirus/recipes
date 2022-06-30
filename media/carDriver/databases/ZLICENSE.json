@@ -1,0 +1,122 @@
+[
+    {
+        "ZCONTENT": "Xe mô tô 2 bánh có dung tích xi-lanh dưới 175 cm3",
+        "ZDESC": "Xe mô tô 2 bánh có dung tích xi-lanh dưới 175 cm3",
+        "ZDURATION": 19.0,
+        "ZNAME": "A1",
+        "ZNUMBEROFCORRECTQUESTION": 21,
+        "ZNUMBEROFQUESTION": 25,
+        "ZNUMBEROFTEST": 8,
+        "Z_ENT": 5,
+        "Z_OPT": 5,
+        "Z_PK": 61
+    },
+    {
+        "ZCONTENT": "Xe mô tô 2 bánh có dung tích xi-lanh từ 175 cm3 trở lên",
+        "ZDESC": "Xe mô tô 2 bánh có dung tích xi-lanh từ 175 cm3 trở lên",
+        "ZDURATION": 19.0,
+        "ZNAME": "A2",
+        "ZNUMBEROFCORRECTQUESTION": 23,
+        "ZNUMBEROFQUESTION": 25,
+        "ZNUMBEROFTEST": 18,
+        "Z_ENT": 5,
+        "Z_OPT": 5,
+        "Z_PK": 62
+    },
+    {
+        "ZCONTENT": "Xe mô tô 3 bánh, xe lam…",
+        "ZDESC": "Xe mô tô 3 bánh, xe lam…",
+        "ZDURATION": 19.0,
+        "ZNAME": "A3",
+        "ZNUMBEROFCORRECTQUESTION": 23,
+        "ZNUMBEROFQUESTION": 25,
+        "ZNUMBEROFTEST": 20,
+        "Z_ENT": 5,
+        "Z_OPT": 6,
+        "Z_PK": 63
+    },
+    {
+        "ZCONTENT": "Xe máy kéo nhỏ có trọng tải đến 1000kg",
+        "ZDESC": "Xe máy kéo nhỏ có trọng tải đến 1000kg",
+        "ZDURATION": 19.0,
+        "ZNAME": "A4",
+        "ZNUMBEROFCORRECTQUESTION": 23,
+        "ZNUMBEROFQUESTION": 25,
+        "ZNUMBEROFTEST": 20,
+        "Z_ENT": 5,
+        "Z_OPT": 6,
+        "Z_PK": 64
+    },
+    {
+        "ZCONTENT": "Không hành nghề lái xe, xe đến 9 chỗ ngồi, xe ô tô tải trọng dưới 3.500kg (3.5 tấn)",
+        "ZDESC": "Không hành nghề lái xe, xe đến 9 chỗ ngồi, xe ô tô tải trọng dưới 3.500kg (3.5 tấn)",
+        "ZDURATION": 20.0,
+        "ZNAME": "B1",
+        "ZNUMBEROFCORRECTQUESTION": 27,
+        "ZNUMBEROFQUESTION": 30,
+        "ZNUMBEROFTEST": 20,
+        "Z_ENT": 5,
+        "Z_OPT": 7,
+        "Z_PK": 65
+    },
+    {
+        "ZCONTENT": "Hành nghề lái xe, xe đến 9 chỗ ngồi, xe ô tô tải trọng dưới 3.500kg (3.5 tấn)",
+        "ZDESC": "Hành nghề lái xe, xe đến 9 chỗ ngồi, xe ô tô tải trọng dưới 3.500kg (3.5 tấn)",
+        "ZDURATION": 22.0,
+        "ZNAME": "B2",
+        "ZNUMBEROFCORRECTQUESTION": 32,
+        "ZNUMBEROFQUESTION": 35,
+        "ZNUMBEROFTEST": 18,
+        "Z_ENT": 5,
+        "Z_OPT": 8,
+        "Z_PK": 66
+    },
+    {
+        "ZCONTENT": "Xe ô tô đến 9 chỗ ngồi, xe ô tô trọng tải trên 3.500kg (3.5 tấn)",
+        "ZDESC": "Xe ô tô đến 9 chỗ ngồi, xe ô tô trọng tải trên 3.500kg (3.5 tấn)",
+        "ZDURATION": 24.0,
+        "ZNAME": "C",
+        "ZNUMBEROFCORRECTQUESTION": 36,
+        "ZNUMBEROFQUESTION": 40,
+        "ZNUMBEROFTEST": 15,
+        "Z_ENT": 5,
+        "Z_OPT": 8,
+        "Z_PK": 67
+    },
+    {
+        "ZCONTENT": "Ô tô chở người từ 10 - 30 chỗ",
+        "ZDESC": "Ô tô chở người từ 10 - 30 chỗ",
+        "ZDURATION": 26.0,
+        "ZNAME": "D",
+        "ZNUMBEROFCORRECTQUESTION": 41,
+        "ZNUMBEROFQUESTION": 45,
+        "ZNUMBEROFTEST": 14,
+        "Z_ENT": 5,
+        "Z_OPT": 8,
+        "Z_PK": 68
+    },
+    {
+        "ZCONTENT": "Ô tô chở người trên 30 chỗ",
+        "ZDESC": "Ô tô chở người trên 30 chỗ",
+        "ZDURATION": 26.0,
+        "ZNAME": "E",
+        "ZNUMBEROFCORRECTQUESTION": 41,
+        "ZNUMBEROFQUESTION": 45,
+        "ZNUMBEROFTEST": 14,
+        "Z_ENT": 5,
+        "Z_OPT": 8,
+        "Z_PK": 69
+    },
+    {
+        "ZCONTENT": "Điều kiển các loại kéo rơ móc",
+        "ZDESC": "Điều kiển các loại kéo rơ móc",
+        "ZDURATION": 26.0,
+        "ZNAME": "F",
+        "ZNUMBEROFCORRECTQUESTION": 41,
+        "ZNUMBEROFQUESTION": 45,
+        "ZNUMBEROFTEST": 14,
+        "Z_ENT": 5,
+        "Z_OPT": 8,
+        "Z_PK": 70
+    }
+]

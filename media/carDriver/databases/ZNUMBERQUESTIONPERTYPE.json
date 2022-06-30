@@ -1,0 +1,490 @@
+[
+    {
+        "ZCOUNT": 11,
+        "ZLICENSE": 61,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 1
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 61,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 2
+    },
+    {
+        "ZCOUNT": 8,
+        "ZLICENSE": 61,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 3
+    },
+    {
+        "ZCOUNT": 4,
+        "ZLICENSE": 61,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 4
+    },
+    {
+        "ZCOUNT": 8,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 5
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 6
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 7
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 8
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 9
+    },
+    {
+        "ZCOUNT": 4,
+        "ZLICENSE": 62,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 10
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 63,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 11
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 63,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 12
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 63,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 13
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 63,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 14
+    },
+    {
+        "ZCOUNT": 5,
+        "ZLICENSE": 63,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 15
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 64,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 16
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 64,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 17
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 64,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 18
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 64,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 19
+    },
+    {
+        "ZCOUNT": 5,
+        "ZLICENSE": 64,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 20
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 21
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 22
+    },
+    {
+        "ZCOUNT": 3,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 23
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 24
+    },
+    {
+        "ZCOUNT": 9,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 25
+    },
+    {
+        "ZCOUNT": 7,
+        "ZLICENSE": 65,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 26
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 27
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 2,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 28
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 29
+    },
+    {
+        "ZCOUNT": 3,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 30
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 31
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 32
+    },
+    {
+        "ZCOUNT": 8,
+        "ZLICENSE": 66,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 33
+    },
+    {
+        "ZCOUNT": 12,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 34
+    },
+    {
+        "ZCOUNT": 1,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 2,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 35
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 36
+    },
+    {
+        "ZCOUNT": 3,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 37
+    },
+    {
+        "ZCOUNT": 3,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 38
+    },
+    {
+        "ZCOUNT": 12,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 39
+    },
+    {
+        "ZCOUNT": 7,
+        "ZLICENSE": 67,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 40
+    },
+    {
+        "ZCOUNT": 12,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 41
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 2,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 42
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 43
+    },
+    {
+        "ZCOUNT": 4,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 44
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 45
+    },
+    {
+        "ZCOUNT": 13,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 46
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 68,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 47
+    },
+    {
+        "ZCOUNT": 12,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 48
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 2,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 49
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 50
+    },
+    {
+        "ZCOUNT": 4,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 51
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 52
+    },
+    {
+        "ZCOUNT": 13,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 53
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 69,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 54
+    },
+    {
+        "ZCOUNT": 12,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 1,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 55
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 2,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 56
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 3,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 57
+    },
+    {
+        "ZCOUNT": 4,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 4,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 58
+    },
+    {
+        "ZCOUNT": 2,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 5,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 59
+    },
+    {
+        "ZCOUNT": 13,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 6,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 60
+    },
+    {
+        "ZCOUNT": 10,
+        "ZLICENSE": 70,
+        "ZQUESTIONTYPE": 7,
+        "Z_ENT": 6,
+        "Z_OPT": 1,
+        "Z_PK": 61
+    }
+]

@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Common_model extends MY_Model {
+class Common_model extends ADMIN_Model {
 
     /**
      * @vars

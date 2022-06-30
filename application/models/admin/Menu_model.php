@@ -1,6 +1,6 @@
 <?php
 
-class Menu_model extends MY_Model
+class Menu_model extends ADMIN_Model
 {
     private $_db;
     private $_db_group;

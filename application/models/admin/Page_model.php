@@ -1,6 +1,6 @@
 <?php
 
-class Page_model extends MY_Model
+class Page_model extends ADMIN_Model
 {
     private $_db;
     private $_db_group;

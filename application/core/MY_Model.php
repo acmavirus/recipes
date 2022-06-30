@@ -223,3 +223,83 @@ class PUBLIC_Model extends MY_Model
         }
     }
 }
+
+class ADMIN_Model extends MY_Model
+{
+    public function getDataBy($table, $param = [])
+    {
+
+        $cache = "cache_by_$table" . implode('_', $param);
+        //$data = $this->getCache($cache);
+        if (empty($data)) {
+            $this->db->select('*');
+            if (count($param) > 1) {
+                foreach ($param as $item) {
+                    $this->db->where($item);
+                }
+            } else $this->db->where($param);
+            $this->db->order_by('id', "ASC");
+            $query = $this->db->get($table);
+            $data = $query->result_array();
+            $this->setCache($cache, $data, 100);
+        };
+        if (count($data) == 1) {
+            return (array) $query->row();
+        } else {
+            return $data;
+        }
+    }
+
+    public function getDataByODR($table, $param = [], $order = ['id' => 'ASC'])
+    {
+
+        $cache = "cache_by_" . implode('_', $param);
+        //$data = $this->getCache($cache);
+        if (empty($data)) {
+            $this->db->select('*');
+            $this->db->where($param);
+            if (!empty($order)) foreach ($order as $key => $value) {
+                $this->db->order_by($key, $value);
+            }
+            $query = $this->db->get($table);
+            $data = $query->result_array();
+            $this->setCache($cache, $data, 100);
+        }
+        if (count($data) === 1) {
+            return (array) $query->row();
+        } else {
+            return $data;
+        }
+    }
+
+    public function getDataByLM($table, $param = '', $limit, $page = 1, $order = 'id', $search = null, $select = '*')
+    {
+        $this->db->select($select);
+        $this->db->where($param);
+        if (is_string($order)) {
+            $this->db->order_by($order, "ASC");
+        } else {
+            foreach ($order as $key => $value) {
+                $this->db->order_by($key, $value);
+            }
+        }
+        if ($page == 0) {
+            $offset = $page * $limit;
+        } else {
+            $offset = ($page - 1) * $limit;
+        }
+        if (empty($search)) $this->db->limit($limit, $offset);
+        if (!empty($search)) {
+            $query = $this->db->get($table)->result_array();
+            $rs = [];
+            if (!empty($query)) foreach ($query as $key => $value) {
+                if (strpos($value[$search[0]], $search[1]) !== false) {
+                    $rs[] = $value;
+                }
+            };
+            return $rs;
+        }
+        $query = $this->db->get($table);
+        return $query->result_array();
+    }
+}

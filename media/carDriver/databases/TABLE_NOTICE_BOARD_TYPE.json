@@ -1,0 +1,27 @@
+[
+    {
+        "Icon": null,
+        "Type_ID": 1,
+        "Type_Name": "Biển báo cấm"
+    },
+    {
+        "Icon": null,
+        "Type_ID": 2,
+        "Type_Name": "Biển hiệu lệnh"
+    },
+    {
+        "Icon": null,
+        "Type_ID": 3,
+        "Type_Name": "Biển chỉ dẫn"
+    },
+    {
+        "Icon": null,
+        "Type_ID": 4,
+        "Type_Name": "Biển báo nguy hiểm và cảnh báo"
+    },
+    {
+        "Icon": null,
+        "Type_ID": 5,
+        "Type_Name": "Biển phụ"
+    }
+]

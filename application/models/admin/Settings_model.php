@@ -1,6 +1,6 @@
 <?php
 
-class Settings_model extends PUBLIC_Model
+class Settings_model extends ADMIN_Model
 {
     protected $_table;
     function __construct()
