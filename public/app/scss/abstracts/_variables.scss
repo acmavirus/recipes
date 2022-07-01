@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "facebook";
+	src: url("fonts/facebook-letter-faces.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-Medium.ttf");
+}
+
+
+:root {
+	--body-font-size: 16px;
+	--line-height30: 1.8;
+	--main-color: rgb(206, 40, 41);
+	--secondary-color: #fdc913;
+	--main-color-opacity: 206, 40, 41;
+	--body-font: "Barlow", sans-serif;
+	--heading-font: "Barlow", sans-serif;
+	--paragraph-color: #5f5f5f;
+	--heading-color: #292929;
+	--bebas-font: "Bebas Neue", cursive;
+	--satisfy-font: "Satisfy", cursive;
+}
+
+/***scroll-bar***/
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--heading-color);
+	border-radius: 10px;
+}
+
+
+// Responsive Variables
+$extraBig-device : 'only screen and (min-width: 1600px)';
+$laptop-device : 'only screen and (min-width: 1200px)';
+$mini-laptop-device : 'only screen and (min-width: 1200px)';
+$desktop-device : 'only screen and (min-width: 992px)';
+$tablet-device:'only screen and (min-width: 768px)';
+$large-mobile:'only screen and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+$mini-mobile: 'only screen and (max-width: 320px)';

@@ -20,8 +20,8 @@ class Cardriving extends PUBLIC_Controller
     {
         // // ==>> START CODE <<== //
         $onePage = $this->_page->getByField('slug', 'car-driving');
-        $skill = json_decode(file_get_contents(base_url('media/carDriver/skill/main.json')));
-        $skill_rand = array_rand($skill);
+        $license = $this->getDatabase('ZLICENSE');
+        // ====================================
         // ==>> END CODE <<== //
         // SETTING & SEO
         $SEO = (object) [
@@ -36,16 +36,18 @@ class Cardriving extends PUBLIC_Controller
         $data = [
             'onePage' => $onePage,
             'SEO' => $SEO,
-            'carousel' => file_get_contents(base_url($skill[$skill_rand]->text))
+            'license' => $license
         ];
         $data['main_content'] = $this->load->view('default/car-driving/index', $data, true);
-        $this->load->view('default/layout', $data);
+        $this->load->view('default/car-driving/layout', $data);
     }
 
     public function page($slug, $id = null)
     {
         // // ==>> START CODE <<== //
         $onePage = $this->_page->getByField('slug', 'car-driving');
+        $license = $this->getDatabase('ZLICENSE');
+
         switch ($slug) {
             case 'bien-bao':
                 $category = json_decode(file_get_contents(base_url('media/carDriver/databases/TABLE_NOTICE_BOARD_TYPE.json')));
@@ -78,11 +80,11 @@ class Cardriving extends PUBLIC_Controller
             'onePage' => $onePage,
             'SEO' => $SEO,
             'category' => $category,
+            'license' => $license,
             'data' => $data
         ];
-        dump($data);
         $data['main_content'] = $this->load->view("default/car-driving/$slug", $data, true);
-        $this->load->view('default/layout', $data);
+        $this->load->view('default/car-driving/layout', $data);
     }
 
     private function getDatabase($name)
