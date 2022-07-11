@@ -70,7 +70,7 @@ $route['recipes/page'] = 'Recipes/index/1';
 $route['recipes/page/(:any)'] = 'Recipes/index/$1';
 $route['recipes/(:any)-cat.html'] = 'Recipes/category/$1';
 $route['recipes/(:any)/page'] = 'Recipes/category/$1';
-$route['recipes/(:any)/page/(:any).html'] = 'Recipes/category/$1/$2';
+$route['recipes/(:any)/page/(:any)'] = 'Recipes/category/$1/$2';
 $route['recipes/(:any)-det.html'] = 'Recipes/detail/$1';
 $route['recipes/search'] = 'Recipes/search';
 // =====> =============== <=====

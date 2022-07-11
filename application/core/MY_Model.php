@@ -225,7 +225,7 @@ class PUBLIC_Model extends MY_Model
 
     public function getDataBy($table, $param = [])
     {
-
+        if (empty($table)) $table = $this->table;
         $cache = "cache_by_$table" . implode('_', $param);
         //$data = $this->getCache($cache);
         if (empty($data)) {

@@ -11,6 +11,7 @@ class Crawler extends CI_Controller
     protected $_page;
     protected $_post;
     protected $_post_recipes;
+    protected $_post_cardriving;
 
     public function __construct()
     {
@@ -22,17 +23,27 @@ class Crawler extends CI_Controller
         $this->_client = new GuzzleHttp\Client([
             'cookies'  => $cookieJar
         ]);
-        $this->load->model(['Category_model', 'Page_model', 'Post_model', 'Post_recipes_model']);
+        $this->load->model(['Category_model', 'Page_model', 'Post_model', 'Post_recipes_model', 'Post_cardriving_model']);
         $this->_category = new Category_model();
         $this->_page     = new Page_model();
         $this->_post     = new Post_model();
         $this->_post_recipes     = new Post_recipes_model();
+        $this->_post_cardriving     = new Post_cardriving_model();
     }
 
     public function test()
     {
-        $crawler = $this->_client->request('GET', "https://blackdragon.mobi/library/index/c=68715");
-        dd($crawler);
+        $file = file_get_contents(base_url("database/skill.txt"));
+        $file = explode("<br>", $file);
+        foreach ($file as $key => $value) {
+            if (!empty(trim($value))) {
+                $save = [
+                    'content' => trim($value),
+                    'type' => 'skill'
+                ];
+                $this->_post_cardriving->insert($save);
+            }
+        }
     }
 
     public function getimg()

@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9 col-12">
-                <div class="row">
+                <div class="row" id="ajax_content">
                     <?php if (!empty($data)) foreach ($data as $key => $value) : ?>
                         <?php $this->load->view(PATH . "recipes/__widget-post", ['value' => $value]); ?>
                     <?php endforeach; ?>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <a href="#" class="button light w-100 text-center">Show me more</a>
+                        <button class="w-100 btnLoadMore" data-page="2" data-url="<?php echo base_url("recipes/$oneCategory->slug/page"); ?>">Show me more</button>
                     </div>
                 </div>
             </div>

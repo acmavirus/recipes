@@ -6,22 +6,23 @@ class Cardriving extends PUBLIC_Controller
     protected $_category;
     protected $_page;
     protected $_post;
-    protected $_post_recipes;
+    protected $_post_cardriving;
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->model(['Category_model', 'Page_model', 'Post_model', 'Post_recipes_model']);
+        $this->load->model(['Category_model', 'Page_model', 'Post_model', 'Post_cardriving_model']);
         $this->_category = new Category_model();
         $this->_page     = new Page_model();
         $this->_post     = new Post_model();
-        $this->_post_recipes     = new Post_recipes_model();
+        $this->_post_cardriving     = new Post_cardriving_model();
     }
 
     public function index($page = 1)
     {
         // // ==>> START CODE <<== //
         $onePage = $this->_page->getByField('slug', 'car-driving');
+        $oneSkill= $this->_post_cardriving->getDataBy(NULL, ['type' => 'skill']);
         // ====================================
         $author = $this->_post->getDataBy('admin_users', ['id' => 1]);
         // ==>> END CODE <<== //
@@ -38,8 +39,10 @@ class Cardriving extends PUBLIC_Controller
         $data = [
             'author' => $author,
             'onePage' => $onePage,
+            'oneSkill' => (object) $oneSkill[array_rand($oneSkill)],
             'SEO' => $SEO
         ];
+        //dd($data);
         $data['main_content'] = $this->load->view(PATH . 'car-driving/index', $data, true);
         $this->load->view(PATH . 'layout', $data);
     }
