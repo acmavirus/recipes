@@ -1,1 +1,0 @@
-<p>© 2022 Recipes. All Rights Reserved</p>

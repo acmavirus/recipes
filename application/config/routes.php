@@ -63,15 +63,15 @@ $route['admin/(:any)/(:any)/(:any)/(:any)'] = 'admin/$1/$2/$3/$4';
 // =====> =============== <=====
 
 // ======>      HOME     <======
-$route['(:any)-post'] = 'Post/index/$1';
+$route['(:any)-post.html'] = 'Post/index/$1';
 // =====> =============== <=====
 // =====>     RECIPES     <=====
 $route['recipes/page'] = 'Recipes/index/1';
 $route['recipes/page/(:any)'] = 'Recipes/index/$1';
-$route['recipes/(:any)-cat'] = 'Recipes/category/$1';
+$route['recipes/(:any)-cat.html'] = 'Recipes/category/$1';
 $route['recipes/(:any)/page'] = 'Recipes/category/$1';
-$route['recipes/(:any)/page/(:any)'] = 'Recipes/category/$1/$2';
-$route['recipes/(:any)-det'] = 'Recipes/detail/$1';
+$route['recipes/(:any)/page/(:any).html'] = 'Recipes/category/$1/$2';
+$route['recipes/(:any)-det.html'] = 'Recipes/detail/$1';
 $route['recipes/search'] = 'Recipes/search';
 // =====> =============== <=====
 // =====>     CAR-DRIVING     <=====

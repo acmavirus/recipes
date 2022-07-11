@@ -42,8 +42,8 @@ if (!function_exists('getCatUrl')) {
     function getCatUrl($slug, $base_url = true)
     {
         if (!empty($slug)) {
-            if ($base_url == true) return base_url('recipes/' . $slug . '-cat');
-            if ($base_url == false) return $slug . '-cat';
+            if ($base_url == true) return base_url('recipes/' . $slug . '-cat.html');
+            if ($base_url == false) return $slug . '-cat.html';
         } else {
             return '#noSlug';
         }
@@ -54,8 +54,8 @@ if (!function_exists('getUrlContent')) {
     function getUrlContent($slug, $base_url = true)
     {
         if (!empty($slug)) {
-            if ($base_url == true) return base_url('recipes/' . $slug . '-det');
-            if ($base_url == false) return $slug . '-det';
+            if ($base_url == true) return base_url('recipes/' . $slug . '-det.html');
+            if ($base_url == false) return $slug . '-det.html';
         } else {
             return '#noDetail';
         }
@@ -66,8 +66,8 @@ if (!function_exists('getPostUrl')) {
     function getPostUrl($slug, $base_url = true)
     {
         if (!empty($slug)) {
-            if ($base_url == true) return base_url('' . $slug . '-post');
-            if ($base_url == false) return $slug . '-post';
+            if ($base_url == true) return base_url('' . $slug . '-post.html');
+            if ($base_url == false) return $slug . '-post.html';
         } else {
             return '#noDetail';
         }

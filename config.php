@@ -8,7 +8,7 @@ date_default_timezone_set("asia/ho_chi_minh");
   --------------------------------------------------------------- */
 $root = realpath(dirname(__FILE__));
 $domain = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
-if (in_array($domain, ["vuivui.tk", "acmatvirus.tk"])) {
+if (in_array($domain, ["acmatvirus.tk"])) {
   $url = "https://";
 } else {
   $url = "http://";
@@ -28,11 +28,18 @@ define('HELPER', $helper);
 define('LIBRARY', $library);
 define('MEDIA_NAME', "media/"); //Tên đường dẫn lưu media
 define('MEDIA_PATH', $root . DIRECTORY_SEPARATOR . MEDIA_NAME); //Đường dẫn lưu media
-define('VENDOR_PATH', "theme/"); //Đường dẫn lưu vendor
+define('VENDOR_PATH', "theme/"); //Đường dẫn lưu theme
+define('PATH', "mini/"); //Đường dẫn lưu theme
+/*---------------------------------------------------------------
+ *                    SETUP PATH
+ * public/PATH
+ * views/PATH
+  --------------------------------------------------------------- */
+  
 /*---------------------------------------------------------------
  *                    DATABASE
   --------------------------------------------------------------- */
-if (in_array($domain, ["vuivui.tk", "acmatvirus.tk"])) {
+if (in_array($domain, ["acmatvirus.tk"])) {
   define('DB_DEFAULT_HOST', 'localhost'); //DB HOST
   define('DB_DEFAULT_USER', 'vuivui_db'); //DB USER
   define('DB_DEFAULT_PASSWORD', 'vuivui_db'); //DB PASSWORD
