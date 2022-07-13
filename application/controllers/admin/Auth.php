@@ -21,8 +21,6 @@ class Auth extends Admin_Controller
             $this->__loadadminview('admin/dashboard', $data);
         } else {
             $data = $this->login();
-            $data['__head'] = $this->load->view("$this->template_admin/__head_login", $data, true);
-            $data['__script'] = $this->load->view("$this->template_admin/__script_login", $data, true);
             $this->__loadadminview('admin/login', $data);
         };
     }

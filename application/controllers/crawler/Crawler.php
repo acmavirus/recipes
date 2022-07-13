@@ -33,16 +33,18 @@ class Crawler extends CI_Controller
 
     public function test()
     {
-        $file = file_get_contents(base_url("database/skill.txt"));
-        $file = explode("<br>", $file);
+        $file = file_get_contents(base_url("database/TABLE_NOTICE_BOARD.json"));
+        $file = json_decode($file);
         foreach ($file as $key => $value) {
-            if (!empty(trim($value))) {
-                $save = [
-                    'content' => trim($value),
-                    'type' => 'skill'
-                ];
-                $this->_post_cardriving->insert($save);
-            }
+            $save = [
+                'parent_id' => 3,
+                'title' => $value->Type_Name,
+                'meta_title' => $value->Type_Name,
+                'meta_description' => $value->Type_Name,
+                'slug' => toSlug($value->Type_Name, '-'),
+                'type' => 'license'
+            ];
+            $this->_category->insert($save);
         }
     }
 

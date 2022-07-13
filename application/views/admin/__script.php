@@ -1,9 +1,14 @@
-<!-- JAVASCRIPT -->
-<script src="<?php echo base_url('/public/admin/') ?>libs/jquery/jquery.min.js"></script>
-<script src="<?php echo base_url('/public/admin/') ?>libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?php echo base_url('/public/admin/') ?>libs/metismenu/metisMenu.min.js"></script>
-<script src="<?php echo base_url('/public/admin/') ?>libs/simplebar/simplebar.min.js"></script>
-<script src="<?php echo base_url('/public/admin/') ?>libs/node-waves/waves.min.js"></script>
-<script src="<?php echo base_url('public/') ?>vendor/fontawesome/js/all.js"></script>
+<!-- jQuery  -->
+<script src="<?php echo base_url('/public/admin/') ?>js/jquery.min.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/modernizr.min.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/detect.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/fastclick.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/jquery.slimscroll.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/jquery.blockUI.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/waves.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/jquery.nicescroll.js"></script>
+<script src="<?php echo base_url('/public/admin/') ?>js/jquery.scrollTo.min.js"></script>
 <!-- App js -->
 <script src="<?php echo base_url('/public/admin/') ?>js/app.js"></script>
+<script src="<?php echo base_url("public/admin/js/$page.js"); ?>"></script>

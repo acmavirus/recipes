@@ -2,16 +2,26 @@
 <html lang="en">
 <?php if (!empty($__head)) echo $__head;
 else $this->load->view('admin/__head'); ?>
-<?php if (!empty($page) && !empty($this->load->view("admin/$page/__style", [], true))) $this->load->view("admin/$page/__style"); ?>
 <script>
     let base_url = '<?php echo base_url(); ?>';
 </script>
 
-<body data-sidebar="dark">
+<body class="fixed-left">
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+    </div>
     <?php if (!empty($main)) echo $main; ?>
     <?php if (!empty($__script)) echo $__script;
     else $this->load->view('admin/__script'); ?>
-    <?php if (!empty($page) && !empty($this->load->view("admin/$page/__script", [], true))) $this->load->view("admin/$page/__script"); ?>
 </body>
 
 </html>
