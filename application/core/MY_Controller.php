@@ -265,10 +265,7 @@ class Admin_Controller extends MY_Controller
 
     public function ___root()
     {
-        $data = [
-            'title' => '👋 Hi, recipes'
-        ];
-        if (($_SERVER['PHP_SELF'] !== '/index.php/admin') && !$this->session->has_userdata('logged_in')) redirect(base_url('admin'), 'refresh');
+        $data = [];
         return $data;
     }
 
