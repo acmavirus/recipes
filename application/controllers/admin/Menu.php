@@ -5,10 +5,14 @@ class Menu extends Admin_Controller
 {
     public $_menu;
     public $_page;
+    public $_category;
+
     public function __construct()
     {
         parent::__construct();
+        $this->load->model('Category_model');
         $this->load->model('admin/menu_model');
+        $this->_category = new Category_model();
         $this->_menu = new menu_model();
         $this->_page = 'menu';
     }
@@ -24,7 +28,7 @@ class Menu extends Admin_Controller
         return $this->load->view("$this->template_admin/$this->_page/_table", $data, true);
     }
 
-    public function index($group_id=1)
+    public function index($group_id = 1)
     {
         $data = array_merge([
             'breadcrumb' => $this->__breadcrumb(),
@@ -47,7 +51,9 @@ class Menu extends Admin_Controller
         $data['group_id'] = $group_id;
         $data['group_title'] = $this->_menu->get_menu_group_title($group_id);
         $data['menu_groups'] = $this->_menu->get_menu_groups();
-
+        $data['category'] = $this->_category->getData([
+            'limit' => 1000
+        ]);
         // ==>> END CODE <<== //
         $data['main'] = $this->load->view("$this->template_admin/$this->_page/index", $data, true);
         $this->__loadadminview('admin/dashboard', $data);
@@ -224,20 +230,18 @@ class Menu extends Admin_Controller
     // ==>> PRIVATE FUNC <<== //
     private function get_labels($row)
     {
-        $label = '<div class="ns-row">' .
-            '<div class="ns-title">' . $row['title'] . '</div>' .
-            '<div class="ns-url">' . $row['url'] . '</div>' .
-            '<input class="ns-icon d-none" value="' . $row['icon'] . '">' .
-            '<div class="actions">' .
-            '<a href="#" class="edit-menu" title="Edit" data-bs-toggle="modal" data-bs-target="#modalEditItem">' .
-            '<i class="mdi mdi-pencil"></i>' .
-            '</a>' .
-            '<a href="#" class="delete-menu" title="Delete" data-bs-toggle="modal" data-bs-target="#modalDeleteItem">' .
-            '<i class="mdi mdi-delete-empty"></i>' .
-            '</a>' .
-            '<input type="hidden" name="menu_id" value="' . $row['id'] . '">' .
-            '</div>' .
-            '</div>';
+        $label = '
+        <div class="ns-row" style="background-color: #000;">
+            <div class="ns-title ui-sortable-handle">' . $row['title'] . '</div>
+            <div class="ns-url">' . $row['url'] . '</div>
+            <input class="ns-icon d-none" value="' . htmlentities($row['icon']) . '</i>">
+            <div class="actions">
+            <a href="#" class="edit-menu" title="Edit" data-bs-toggle="modal" data-bs-target="#modalEditItem">
+            <i class="mdi mdi-pencil"></i>
+            </a>
+            <a href="#" class="delete-menu" title="Delete" data-bs-toggle="modal" data-bs-target="#modalDeleteItem">
+            <i class="mdi mdi-delete-empty"></i>
+            </a><input type="hidden" name="menu_id" value="' . $row['id'] . '"></div></div>';
         return $label;
     }
 }

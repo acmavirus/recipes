@@ -82,9 +82,12 @@ jQuery(function ($) {
 				url: $(this).attr('action'),
 				data: $(this).serialize(),
 				error: function () {
-					gbox.show({
-						content: 'Add menu item error. Please try again.',
-						autohide: 1000
+					notie.alert({
+						type: 'error', // optional, default = 4, enum: [1, 2, 3, 4, 5, 'success', 'warning', 'error', 'info', 'neutral']
+						text: '<h2>Success</h2>Save menu has been saved',
+						stay: false, // optional, default = false
+						time: 1, // optional, default = 3, minimum = 1,
+						position: 'top' // optional, default = 'top', enum: ['top', 'bottom']
 					});
 				},
 				success: function (data) {
@@ -95,9 +98,12 @@ jQuery(function ($) {
 								.append(data.li);
 							break;
 						case 2:
-							gbox.show({
-								content: data.msg,
-								autohide: 1000
+							notie.alert({
+								type: 'success', // optional, default = 4, enum: [1, 2, 3, 4, 5, 'success', 'warning', 'error', 'info', 'neutral']
+								text: data.msg,
+								stay: false, // optional, default = false
+								time: 1, // optional, default = 3, minimum = 1,
+								position: 'top' // optional, default = 'top', enum: ['top', 'bottom']
 							});
 							break;
 						case 3:
@@ -109,7 +115,12 @@ jQuery(function ($) {
 		}
 		return false;
 	});
-
+	$('body').on('change', '.select_category', function () {
+		let title = $(this).val();
+		let slug  = $(this).find(':selected').data('slug');
+		$("input[name=title]").val(title);
+		$("input[name=url]").val(slug);
+	});
 	/* update menu / save order
 	------------------------------------------------------------------------- */
 	$('#btn-save-menu').attr('disabled', true);
@@ -127,9 +138,12 @@ jQuery(function ($) {
 				});
 			},
 			success: function (data) {
-				gbox.show({
-					content: '<h2>Success</h2>Save menu has been saved',
-					autohide: 1000
+				notie.alert({
+					type: 'success', // optional, default = 4, enum: [1, 2, 3, 4, 5, 'success', 'warning', 'error', 'info', 'neutral']
+					text: '<h2>Success</h2>Save menu has been saved',
+					stay: false, // optional, default = false
+					time: 1, // optional, default = 3, minimum = 1,
+					position: 'top' // optional, default = 'top', enum: ['top', 'bottom']
 				});
 			}
 		});

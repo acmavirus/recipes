@@ -39,14 +39,6 @@
 
             <nav class="navbar-custom">
                <ul class="list-inline float-right mb-0">
-                  <li class="list-inline-item">
-                     <button type="button" class="btn btn-success">
-                        Thêm bản ghi
-                     </button>
-                     <button type="button" class="btn btn-default bg-white">
-                        Lưu
-                     </button>
-                  </li>
                   <li class="list-inline-item dropdown notification-list nav-user">
                      <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                         <img src="<?php echo base_url('/public/admin/') ?>images/users/avatar-6.jpg" alt="user" class="rounded-circle">
@@ -67,21 +59,6 @@
                      <button type="button" class="button-menu-mobile open-left waves-effect">
                         <i class="mdi mdi-menu"></i>
                      </button>
-                  </li>
-                  <li class="list-inline-item dropdown">
-                     <div class="dropdown mt-4 mt-sm-0 mr-2">
-                        <a href="#" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                           Hiển thị
-                        </a>
-                        <div class="dropdown-menu">
-                           <?php foreach ($listkey as $key) : ?>
-                              <div class="form-check font-size-16 align-middle">
-                                 <input class="form-check-input" name="show" type="checkbox" value="<?php echo $key; ?>" <?php echo (in_array($key, $listkeyShow)) ? 'checked' : ''; ?>>
-                                 <label class="form-check-label" for="<?php echo $key; ?>"><small><?php echo $key; ?></small></label>
-                              </div>
-                           <?php endforeach; ?>
-                        </div>
-                     </div>
                   </li>
                </ul>
             </nav>

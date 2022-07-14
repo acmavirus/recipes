@@ -9,6 +9,13 @@
                 </h5>
             </div>
             <div class="modal-body">
+                <select class="btn btn-success btn-rounded waves-effect waves-light pl-2 mb-2 me-2 select_category">
+                    <?php foreach ($category as $item) : ?>
+                        <?php if ($item->parent_id == 2) : ?>
+                            <option value="<?= $item->title; ?>" data-slug="<?= "/recipes/".getCatUrl($item->slug, false); ?>"><?= $item->title; ?></option>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </select>
                 <form id="form-add-menu" method="post" action="<?php echo site_url('admin/menu/add'); ?>">
                     <div class="form-group"><label for="menu-title">Title</label><input style="width: 100% !important;" type="text" name="title" required id="menu-title" class="form-control"></div>
                     <div class="form-group"><label for="menu-url">URL</label><input type="text" name="url" id="menu-url" class="form-control" required style="width: 100% !important;"></div>
