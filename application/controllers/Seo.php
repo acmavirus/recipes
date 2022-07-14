@@ -40,17 +40,17 @@ class Seo extends Public_Controller
         $this->setCacheFile(60 * 60);
         $xml = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8" ?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"/>');
 
-        $child = $xml->addChild('url');
+        $child = $xml->addChild('sitemap');
         $child->addChild('loc', site_url('sitemap_category.xml'));
         $child->addChild('lastmod', date('c'));
 
-        $child = $xml->addChild('url');
+        $child = $xml->addChild('sitemap');
         $child->addChild('loc', site_url('sitemap_page.xml'));
         $child->addChild('lastmod', date('c'));
 
         $totalPOST = $this->_post_recipes->all();
         for ($i = 1; $i <= ceil($totalPOST / $this->_limit_url); $i++) {
-            $child = $xml->addChild('url');
+            $child = $xml->addChild('sitemap');
             $child->addChild('loc', site_url("sitemap_post_$i.xml"));
             $child->addChild('lastmod', date('c'));
         }
@@ -99,17 +99,17 @@ class Seo extends Public_Controller
         if (!empty($all)) {
             foreach ($all as $item) {
                 $child = $xml->addChild('url');
-                $child->addChild('loc', getUrlContent($item));
-                if (isset($item->thumbnail)) {
+                $child->addChild('loc', getUrlContent($item->slug));
+                if (isset($item->img)) {
                     $image = $child->addChild('image:image:image');
-                    $image->addChild('image:image:loc', !empty($item->thumbnail) ? getImageThumb($item->thumbnail, 470, 246) : '');
+                    $image->addChild('image:image:loc', !empty($item->img) ? getImageThumb($item->img, 470, 246) : '');
                     $image->addChild('image:image:title', $item->title);
                 }
                 if (isset($item->updated_time)) {
                     $child->addChild('lastmod', date('c', strtotime($item->updated_time)));
                 }
-                $child->addChild('changefreq', 'monthly');
-                $child->addChild('priority', '0.7');
+                $child->addChild('changefreq', 'always');
+                $child->addChild('priority', '0.8');
             }
         }
         $this->output->set_content_type('application/xml')->set_output($xml->asXml());
