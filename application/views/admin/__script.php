@@ -12,16 +12,15 @@
 <script src="<?php echo base_url('/public/admin/') ?>js/jquery.scrollTo.min.js"></script>
 <script src="<?php echo base_url('public/admin/js/jquery-ui.min.js'); ?>"></script>
 <script src="<?php echo base_url('public/admin/js/jquery.mjs.nestedSortable.js'); ?>"></script>
-<script src="<?php echo base_url('public/admin/js/notie.min.js'); ?>"></script>
 <script src="<?php echo base_url('/theme') ?>/plugins/tinymce/tinymce.min.js"></script>
 <!-- App js -->
 <script src="<?php echo base_url('/public/admin/') ?>js/app.js"></script>
-<script src="<?php echo base_url("public/admin/js/$page.js"); ?>"></script>
+<script src="<?php echo base_url("public/admin/js/".$this->router->fetch_class().".js"); ?>"></script>
 <script>
     $(document).ready(function() {
-        if ($("#elm1").length > 0) {
+        if ($("#content").length > 0) {
             tinymce.init({
-                selector: "textarea#elm1",
+                selector: "textarea#content",
                 theme: "modern",
                 height: 300,
                 plugins: [

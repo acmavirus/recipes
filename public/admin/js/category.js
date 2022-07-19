@@ -113,7 +113,8 @@ const SETTINGS = {
 			};
 			let API = FUNC.ajax_load(base_url + 'admin/'+__page+'/getRow', param, 'JSON');
 			$.each(API, function (key, value) {
-				$("#modalEditRow").find("#" + key).val(value);
+				$("#form-add-row").attr("action", base_url + 'admin/'+__page+'/edit');
+				$("#form-add-row").find("input[name="+ key +"]").val(value);
 			});
 			$('#form-edit-row').submit(function (e) {
 				e.preventDefault();
@@ -143,10 +144,10 @@ const SETTINGS = {
 	pagination: function () {
 		$('body').on('click', '.pagination a', function (e) {
 			e.preventDefault();
-			let page = $(this).data('ci-pagination-page');
-			let data = FUNC.ajax_load(base_url + 'admin/'+__page+'/loadPagination', {page:page}, 'HTML');
-			$("#tableContent").html(data);
-			console.log(data);
+			// let page = $(this).data('ci-pagination-page');
+			// let data = FUNC.ajax_load(base_url + 'admin/'+__page, {page:page}, 'HTML');
+			// $("#tableContent").html(data);
+			// console.log(data);
 		});
 	},
 	init: function () {

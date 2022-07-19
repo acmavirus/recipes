@@ -8,6 +8,7 @@ class Category extends Admin_Controller
     public $_database;
     public $_page;
     public $_keyShow;
+    public $_keyData;
     public function __construct()
     {
         parent::__construct();
@@ -18,9 +19,14 @@ class Category extends Admin_Controller
         $this->_database = 'category';
         $this->_page = 'category';
         $this->_keyShow = ['id', 'title', 'slug'];
+        $fields = $this->db->field_data($this->_database);
+        $fields = $this->array_group_by($fields, function ($a) {
+            return $a->name;
+        });
+        $this->_keyData = array_keys($fields);
     }
 
-    private function __loadTable($page=0)
+    private function __loadTable($page = 0)
     {
         $data = [
             'pagination' => $this->__pagination($page),
@@ -35,11 +41,17 @@ class Category extends Admin_Controller
         return $this->load->view("$this->template_admin/$this->_page/_table", $data, true);
     }
 
-    private function __pagination($page=0)
+    public function index($page = 1)
     {
+        $data = [];
+        $limit_per_page = 10;
+
+        // ==>> START CODE <<== //
+        $data['listview'] = $listview = $this->_category->getDataByLM($this->_database, [], $limit_per_page, $page);
+        $data['listkey'] = $this->_keyData;
+        $data['listkeyShow'] = $this->_keyShow;
         // init params
         $params = array();
-        $limit_per_page = 10;
         $start_index = ($this->uri->segment(3)) ? $this->uri->segment(3) : $page;
         $total_records = $this->_pagination->get_total($this->_database);
         $config['base_url'] = '#';
@@ -50,25 +62,7 @@ class Category extends Admin_Controller
         $this->pagination->initialize($config);
         // build paging links
         $_GET['page'] = $page;
-        $params["links"] = $this->pagination->create_links();
-        return $params;
-    }
-
-    public function index()
-    {
-        $data = array_merge([
-            'breadcrumb' => $this->__breadcrumb(),
-            'pagination' => $this->__pagination(),
-            'page' => $this->_page,
-            'listkeyShow' => $this->_keyShow
-        ], $this->___root());
-        // ==>> START CODE <<== //
-        $data['listview'] = $listview = $this->_category->getDataByLM($this->_database, [], 10, 1);
-        $fields = $this->db->field_data($this->_database);
-        $fields = $this->array_group_by($fields, function ($a) {
-            return $a->name;
-        });
-        $data['listkey'] = array_keys($fields);
+        $data["pagination"] = $this->pagination->create_links();
         // ==>> END CODE <<== //
         $data['main'] = $this->load->view("$this->template_admin/$this->_page/index", $data, true);
         $this->__loadadminview('admin/dashboard', $data);
@@ -80,7 +74,7 @@ class Category extends Admin_Controller
             $data = $this->input->post();
             $page = $data['page'];
             unset($data['page']);
-            if(!empty($data['slug'])) $data['slug'] = $this->toSlug($data['slug']);
+            if (!empty($data['slug'])) $data['slug'] = $this->toSlug($data['slug']);
             if ($this->db->insert($this->_database, $data)) {
                 echo $this->__loadTable($page);
             }
@@ -105,7 +99,7 @@ class Category extends Admin_Controller
     {
         $id = $this->input->post();
         if ($id) {
-            $del = $this->_category->deleteDataBy($this->_database, ['id'=>$id['id']]);
+            $del = $this->_category->delete(['id' => $id['id']]);
             echo $this->__loadTable($id['page']);
         }
     }
