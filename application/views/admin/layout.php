@@ -4,6 +4,7 @@
 else $this->load->view('admin/__head'); ?>
 <script>
     let base_url = '<?php echo base_url(); ?>';
+    let __page     = '<?= $this->router->fetch_class(); ?>';
 </script>
 
 <body class="fixed-left">

@@ -26,21 +26,6 @@ class Category extends Admin_Controller
         $this->_keyData = array_keys($fields);
     }
 
-    private function __loadTable($page = 0)
-    {
-        $data = [
-            'pagination' => $this->__pagination($page),
-            'listkeyShow' => $this->_keyShow
-        ];
-        $data['listview'] = $listview = $this->_category->getDataByLM($this->_database, [], 10, $page);
-        $fields = $this->db->field_data($this->_database);
-        $fields = $this->array_group_by($fields, function ($a) {
-            return $a->name;
-        });
-        $data['listkey'] = array_keys($fields);
-        return $this->load->view("$this->template_admin/$this->_page/_table", $data, true);
-    }
-
     public function index($page = 1)
     {
         $data = [];
@@ -71,12 +56,75 @@ class Category extends Admin_Controller
     public function add()
     {
         if (!empty($this->input->post())) {
-            $data = $this->input->post();
-            $page = $data['page'];
-            unset($data['page']);
-            if (!empty($data['slug'])) $data['slug'] = $this->toSlug($data['slug']);
-            if ($this->db->insert($this->_database, $data)) {
-                echo $this->__loadTable($page);
+            $data = (object) $this->input->post();
+            // check 
+            $config = array(
+                array(
+                    'field' => 'title',
+                    'label' => 'Title',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'description',
+                    'label' => 'Description',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'slug',
+                    'label' => 'Slug',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                // array(
+                //     'field' => 'type',
+                //     'label' => 'Type',
+                //     'rules' => 'required',
+                //     'errors' => array(
+                //         'required' => 'You must provide a %s.',
+                //     )
+                // ),
+                array(
+                    'field' => 'meta_title',
+                    'label' => 'Meta_title',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'meta_description',
+                    'label' => 'Meta_description',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'meta_keywords',
+                    'label' => 'Meta_keywords',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                )
+            );
+
+            $this->form_validation->set_rules($config);
+            if ($this->form_validation->run() == FALSE) {
+                return $this->returnJson($this->returnReponsive("error", 300, "Error rules", $this->form_validation->error_array()));
+            } else {
+                $page = $data->page;
+                unset($data->page);
+                $this->_category->insert($data);
+                return $this->returnJson($this->returnReponsive("success", 200, "Insert done", ['page' => $page]));
             }
         }
     }
@@ -84,13 +132,77 @@ class Category extends Admin_Controller
     public function edit()
     {
         if (!empty($this->input->post())) {
-            $data = $this->input->post();
-            $id = $data['id'];
-            $page = $data['page'];
-            unset($data['id']);
-            unset($data['page']);
-            if ($this->_category->updateData($this->_database, ['id' => $id], $data)) {
-                echo $this->__loadTable($page);
+            $data = (object) $this->input->post();
+            $config = array(
+                array(
+                    'field' => 'title',
+                    'label' => 'Title',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'description',
+                    'label' => 'Description',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'slug',
+                    'label' => 'Slug',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                // array(
+                //     'field' => 'type',
+                //     'label' => 'Type',
+                //     'rules' => 'required',
+                //     'errors' => array(
+                //         'required' => 'You must provide a %s.',
+                //     )
+                // ),
+                array(
+                    'field' => 'meta_title',
+                    'label' => 'Meta_title',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'meta_description',
+                    'label' => 'Meta_description',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                ),
+                array(
+                    'field' => 'meta_keywords',
+                    'label' => 'Meta_keywords',
+                    'rules' => 'required',
+                    'errors' => array(
+                        'required' => 'You must provide a %s.',
+                    )
+                )
+            );
+
+            $this->form_validation->set_rules($config);
+            if ($this->form_validation->run() == FALSE) {
+                return $this->returnJson($this->returnReponsive("error", 300, "Error rules", $this->form_validation->error_array()));
+            } else {
+                $id = $data->id;
+                $page = $data->page;
+                unset($data->page);
+                unset($data->id);
+                $status = $this->_category->update(['id' => $id], $data);
+                if ($status == -1) $this->returnJson($this->returnReponsive("error", 300, "Error rules", []));
+                if ($status == 1) return $this->returnJson($this->returnReponsive("success", 200, "Insert done", ['page' => $page]));
             }
         }
     }
@@ -98,10 +210,9 @@ class Category extends Admin_Controller
     public function delete()
     {
         $id = $this->input->post();
-        if ($id) {
-            $del = $this->_category->delete(['id' => $id['id']]);
-            echo $this->__loadTable($id['page']);
-        }
+        $status = $this->_category->delete(['id' => $id['id']]);
+        if ($status == -1) $this->returnJson($this->returnReponsive("error", 300, "Error rules", []));
+        if ($status == 1) return $this->returnJson($this->returnReponsive("success", 200, "delete done", []));
     }
 
     public function getRow()
@@ -113,11 +224,13 @@ class Category extends Admin_Controller
         }
     }
 
-    public function loadPagination()
+    private function returnReponsive($status, $code = 200, $message, $data = null)
     {
-        $page = $this->input->post('page');
-        if ($page) {
-            echo $this->__loadTable($page);
-        }
+        return (object)[
+            'status'    => $status,
+            'code'      => $code,
+            'message'   => $message,
+            'data'      => $data
+        ];
     }
 }

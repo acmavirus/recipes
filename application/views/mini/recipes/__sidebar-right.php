@@ -8,7 +8,7 @@
     </div>
     <div class="widget">
         <h3>Về <?= $oneCategory->title; ?></h3>
-        <p class="small"><?= $oneCategory->meta_description; ?></p>
+        <p class="small"><?= $oneCategory->description; ?></p>
     </div>
     <div class="widget widget_categories">
         <h3>Danh mục</h3>

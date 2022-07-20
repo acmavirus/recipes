@@ -4,7 +4,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="text-sm-end">
-                        <button type="button" class="btn btn-success btn-rounded waves-effect waves-light mb-2 me-2" data-bs-toggle="modal" data-bs-target="#modalNewRow">
+                        <button id="openAdd" type="button" class="btn btn-success btn-rounded waves-effect waves-light mb-2 me-2" data-bs-toggle="modal" data-bs-target="#modalNewRow">
                             <i class="mdi mdi-plus me-1"></i>
                             Thêm bản ghi
                         </button>

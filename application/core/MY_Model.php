@@ -51,19 +51,19 @@ class MY_Model extends CI_Model
     public function update($where, $data)
     {
         $this->db->where($where);
-        $this->db->update($this->_table, $data);
+        $this->db->update($this->table, $data);
         return true;
     }
 
     function insert($data)
     {
-        $this->db->insert($this->_table, $data);
+        $this->db->insert($this->table, $data);
         return $this->db->insert_id();
     }
 
     function delete($where)
     {
-        $this->db->delete($this->_table, $where);
+        $this->db->delete($this->table, $where);
         return true;
     }
 }
@@ -312,6 +312,7 @@ class ADMIN_Model extends MY_Model
 {
     public $_controller;
     public $_method;
+    public $admin_table;
     public $table;
 
     public function __construct()
@@ -319,14 +320,15 @@ class ADMIN_Model extends MY_Model
         parent::__construct();
         $this->_controller = $this->router->fetch_class();
         $this->_method = $this->router->fetch_method();
-        $this->table = "admin_" . strtolower(str_replace('_model', '', get_Class($this)));
+        $this->admin_table = "admin_" . strtolower(str_replace('_model', '', get_Class($this)));
+        $this->table = strtolower(str_replace('_model', '', get_Class($this)));
     }
 
     public function update($where, $data)
     {
         $this->db->where($where);
         $this->db->update($this->table, $data);
-        return true;
+        return $this->db->affected_rows();
     }
 
     function insert($data)
@@ -338,7 +340,7 @@ class ADMIN_Model extends MY_Model
     function delete($where)
     {
         $this->db->delete($this->table, $where);
-        return true;
+        return $this->db->affected_rows();
     }
 
     public function getByField($field, $value, $select = '*')
