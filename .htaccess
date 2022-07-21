@@ -2,3 +2,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^allcook.tk$
+RewriteRule ^(.*)$ https://allcook.tk/$1 [R=301,L]
