@@ -33,6 +33,11 @@
                         <button class="w-100 btnLoadMore" data-page="2" data-url="<?php echo base_url('recipes/page'); ?>">Show me more</button>
                     </div>
                 </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <?= $oneCategory->content; ?>
+                    </div>
+                </div>
             </div>
             <div class="col-md-3 col-12">
                 <?php $this->load->view(PATH . "recipes/__sidebar-right"); ?>

@@ -346,8 +346,8 @@ class ADMIN_Model extends MY_Model
     public function getByField($field, $value, $select = '*')
     {
         $this->db->select($select);
-        $this->db->from($this->table);
-        $this->db->where("$this->table.$field", $value);
+        $this->db->from($this->admin_table);
+        $this->db->where("$this->admin_table.$field", $value);
         $query = $this->db->get();
         return $query->row();
     }
