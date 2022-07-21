@@ -8,7 +8,7 @@ date_default_timezone_set("asia/ho_chi_minh");
   --------------------------------------------------------------- */
 $root = realpath(dirname(__FILE__));
 $domain = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
-if (in_array($domain, ["acmatvirus.tk"])) {
+if (in_array($domain, ["allcook.tk"])) {
   $url = "https://";
 } else {
   $url = "http://";
@@ -39,7 +39,7 @@ define('PATH', "mini/"); //Đường dẫn lưu theme
 /*---------------------------------------------------------------
  *                    DATABASE
   --------------------------------------------------------------- */
-if (in_array($domain, ["acmatvirus.tk"])) {
+if (in_array($domain, ["allcook.tk"])) {
   define('DB_DEFAULT_HOST', 'localhost'); //DB HOST
   define('DB_DEFAULT_USER', 'vuivui_db'); //DB USER
   define('DB_DEFAULT_PASSWORD', 'vuivui_db'); //DB PASSWORD
