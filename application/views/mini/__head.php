@@ -1,8 +1,10 @@
 	<!-- Basic Page Needs =====================================-->
 	<meta charset="utf-8">
 	<!-- Mobile Specific Metas ================================-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no">
 	<!-- Site Title- -->
 	<title><?php if (!empty($SEO->meta_title)) echo $SEO->meta_title; ?></title>
 
@@ -14,6 +16,10 @@
 	<!-- Link icon -->
 
 	<link rel="icon" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico">
+	<link rel="apple-touch-icon" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico" />
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico" />
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico" />
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo base_url(MEDIA_NAME) ?>favicon.ico" />
 
 	<!-- Facebook OG -->
 	<meta property="og:type" content="article" />
@@ -29,8 +35,8 @@
 
 	<!-- Link style -->
 	<link rel="stylesheet" href="<?php echo base_url('/public/' . PATH) ?>css/css_minify.min.css">
-	
+
 	<!-- Script first -->
 	<script>
-	  let base_url = '<?php echo base_url(); ?>';
+		let base_url = '<?php echo base_url(); ?>';
 	</script>
