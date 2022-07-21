@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Sitemap: https://acmatvirus.tk/sitemap.xml
+Disallow: /admin/*
+Allow: /*
+Sitemap: https://allcook.tk/sitemap.xml

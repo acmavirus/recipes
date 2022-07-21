@@ -7,7 +7,7 @@ class Seo extends Public_Controller
 {
     protected $urls;
     protected $changefreqs;
-    protected $_limit_url = 300;
+    protected $_limit_url = 10000;
     protected $_data_post;
     protected $_data_category;
     protected $_data_store;
