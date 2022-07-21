@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
     <div class="wrapper-frame">
         <?php $this->load->view(PATH . "_header"); ?>
         <?php if (!empty($main_content)) echo $main_content; ?>

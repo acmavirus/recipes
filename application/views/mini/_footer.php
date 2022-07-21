@@ -11,6 +11,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <p class="copyright">© 2022 Recipes. All Rights Reserved</p>
+                        <div class="fb-like" data-href="https://allcook.tk" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
                     </div>
                 </div>
             </div>
