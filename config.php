@@ -8,10 +8,10 @@ date_default_timezone_set("asia/ho_chi_minh");
   --------------------------------------------------------------- */
 $root = realpath(dirname(__FILE__));
 $domain = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
-if (in_array($domain, ["allcook.tk"])) {
-  $url = "https://";
-} else {
+if (in_array($domain, ["recipes.test"])) {
   $url = "http://";
+} else {
+  $url = "https://";
 }
 $root = str_replace("\\", '/', $root);
 $url .= $domain;
@@ -35,20 +35,20 @@ define('PATH', "mini/"); //Đường dẫn lưu theme
  * public/PATH
  * views/PATH
   --------------------------------------------------------------- */
-  
+
 /*---------------------------------------------------------------
  *                    DATABASE
   --------------------------------------------------------------- */
-if (in_array($domain, ["allcook.tk"])) {
-  define('DB_DEFAULT_HOST', 'localhost'); //DB HOST
-  define('DB_DEFAULT_USER', 'vuivui_db'); //DB USER
-  define('DB_DEFAULT_PASSWORD', 'vuivui_db'); //DB PASSWORD
-  define('DB_DEFAULT_NAME', 'vuivui_db'); //DB NAME
-} else {
+if (in_array($domain, ["recipes.test"])) {
   define('DB_DEFAULT_HOST', 'localhost'); //DB HOST
   define('DB_DEFAULT_USER', 'root'); //DB USER
   define('DB_DEFAULT_PASSWORD', ''); //DB PASSWORD
   define('DB_DEFAULT_NAME', 'vuivui_dulieu'); //DB NAME
+} else {
+  define('DB_DEFAULT_HOST', 'localhost'); //DB HOST
+  define('DB_DEFAULT_USER', 'vuivui_db'); //DB USER
+  define('DB_DEFAULT_PASSWORD', 'vuivui_db'); //DB PASSWORD
+  define('DB_DEFAULT_NAME', 'vuivui_db'); //DB NAME
 }
 /*---------------------------------------------------------------
  *                    DEBUG
