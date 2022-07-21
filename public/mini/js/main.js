@@ -1,20 +1,3 @@
-let FUC = {
-  getCookie: function (cname) {
-    let name = cname + "=";
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let ca = decodedCookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-      let c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-    return "";
-  }
-}
 let GUI = {
   loadMore: function () {
     if ($('button.btnLoadMore').length > 0) {
@@ -51,12 +34,8 @@ let GUI = {
     }
   },
   tabs: function () {
-    // Get the last item in the path (e.g. index.php)
     let url = window.location.href;
-    console.log(url);
-    // Add active nav class based on url
     $("#menu a").each(function () {
-      console.log($(this).attr("href"));
         if ($(this).attr("href") == url) {
             $(this).closest('li').addClass("active");
         }

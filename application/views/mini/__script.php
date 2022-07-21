@@ -1,9 +1,5 @@
 <script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/jquery.common.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/site.js"></script>
-<script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/main.js"></script>
-<script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/plugins/jquery.iosslider.min.js"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script type="text/javascript" src="<?php echo base_url('/public/' . PATH) ?>js/all_minify.min.js"></script>
 <script type="text/javascript">
 	jQuery(function() {
 		jQuery('.iosSlider').iosSlider({
