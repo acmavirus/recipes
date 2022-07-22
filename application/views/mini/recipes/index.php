@@ -1,4 +1,4 @@
-<h1 class="d-none"><?php echo $onePage->meta_title; ?></h1>
+<h1 class="d-none"><?php echo $oneCategory->meta_title; ?></h1>
 <div class="wrapper-row">
     <section id="heading">
         <div class="iosSlider-container">
