@@ -7,8 +7,8 @@
         </form>
     </div>
     <div class="widget">
-        <h3>Về <?= $oneCategory->title; ?></h3>
-        <p class="small"><?= $oneCategory->description; ?></p>
+        <h2>Về <?= $oneCategory->title; ?></h2>
+        <h2 class="small"><?= $oneCategory->description; ?></h2>
     </div>
     <div class="widget widget_categories">
         <h3>Danh mục</h3>

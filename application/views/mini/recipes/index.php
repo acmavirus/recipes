@@ -22,6 +22,9 @@
 <div id="content" class="wrapper-row wrapper-expand">
     <div class="container">
         <div class="row">
+            <div class="col-md-3 col-12">
+                <?php $this->load->view(PATH . "recipes/__sidebar-right"); ?>
+            </div>
             <div class="col-md-9 col-12">
                 <div class="row" id="ajax_content">
                     <?php if (!empty($data)) foreach ($data as $key => $value) : ?>
@@ -38,9 +41,6 @@
                         <?= $oneCategory->content; ?>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-12">
-                <?php $this->load->view(PATH . "recipes/__sidebar-right"); ?>
             </div>
         </div>
     </div>
