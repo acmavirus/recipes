@@ -80,6 +80,5 @@ $route['car-driving/(:any)'] = 'cardriving/page/$1';
 $route['car-driving/(:any)/(:any)'] = 'cardriving/page/$1/$2';
 // ======>      SEO     <======
 $route['sitemap.xml'] = 'Seo/sitemap';
-$route['sitemap_(:any)_(:any).xml'] = 'Seo/$1/$2';
-$route['sitemap_(:any).xml'] = 'Seo/$1';
+$route['sitemap_(:any).xml.gz'] = 'Seo/$1/$2';
 // =====> =============== <=====

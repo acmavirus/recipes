@@ -33,7 +33,9 @@
 
 	<!-- Link style -->
 	<link rel="stylesheet" href="<?php echo base_url('/public/' . PATH) ?>css/css_minify.min.css">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<!-- Script first -->
 	<script>
 		let base_url = '<?php echo base_url(); ?>';

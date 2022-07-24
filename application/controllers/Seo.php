@@ -37,23 +37,19 @@ class Seo extends Public_Controller
 
     public function sitemap()
     {
-        $this->setCacheFile(60 * 60);
-        $xml = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8" ?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"/>');
-
+        $xml = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>');
+        
         $child = $xml->addChild('sitemap');
-        $child->addChild('loc', site_url('sitemap_category.xml'));
+        $child->addChild('loc', site_url('sitemap_category.xml.gz'));
         $child->addChild('lastmod', date('c'));
 
         $child = $xml->addChild('sitemap');
-        $child->addChild('loc', site_url('sitemap_page.xml'));
+        $child->addChild('loc', site_url('sitemap_page.xml.gz'));
         $child->addChild('lastmod', date('c'));
 
-        $totalPOST = $this->_post_recipes->all();
-        for ($i = 1; $i <= ceil($totalPOST / $this->_limit_url); $i++) {
-            $child = $xml->addChild('sitemap');
-            $child->addChild('loc', site_url("sitemap_post_$i.xml"));
-            $child->addChild('lastmod', date('c'));
-        }
+        $child = $xml->addChild('sitemap');
+        $child->addChild('loc', site_url("sitemap_post.xml.gz"));
+        $child->addChild('lastmod', date('c'));
 
         $this->output->set_content_type('application/xml')->set_output($xml->asXml());
     }
@@ -114,7 +110,7 @@ class Seo extends Public_Controller
         }
         $this->output->set_content_type('application/xml')->set_output($xml->asXml());
     }
-    
+
     public function add($loc, $image = null, $lastmod = null, $changefreq = null, $priority = null)
     {
         // Do not continue if the changefreq value is not a valid value
